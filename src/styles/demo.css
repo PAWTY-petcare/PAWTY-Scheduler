@@ -1,0 +1,12 @@
+.navigation {
+
+    background-color:darkcyan;
+    border-style: outset;
+
+}
+.nav-buttons {
+    align-items: right;
+}
+.button {
+    background-color: darkgray;
+}
