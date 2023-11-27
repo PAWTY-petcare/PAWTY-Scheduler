@@ -7,6 +7,7 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import { Register } from "./views/register"
 import { Login } from "./views/login"
+import { Schedule } from "./views/schedule"
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -28,6 +29,7 @@ const Layout = () => {
 						<Route path="/" element={<Home />} />
 						<Route path="/register" element={<Register />} />
 						<Route path="/login" element={<Login />} />
+						<Route path="/schedule" element={<Schedule />} />
 						{/* <Route path="/login" element={<Login />} />
 						<Route path="/register" element={<Register />} />
 						<Route path="/schedule" element={<Schedule />} /> */}

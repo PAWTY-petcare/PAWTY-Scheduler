@@ -13,7 +13,7 @@ export const Navbar = () => {
 				</Link>
 				<Link to="/register">
 					<button className="btn btn-primary">Register</button>
-				</Link>	<Link to="/demo">
+				</Link>	<Link to="/schedule">
 					<button className="btn btn-primary">Schedule a Cleaning</button>
 				</Link>
 				<button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
