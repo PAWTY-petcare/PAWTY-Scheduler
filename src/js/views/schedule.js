@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { useNavigate } from "react-router-dom";
-// import "../../styles/register.css"
+import "../../styles/schedule.css"
 
 
 
@@ -12,7 +12,7 @@ export const Schedule = () => {
   
   <div>
     <div className="container">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ebe2e2&ctz=America%2FNew_York&showCalendars=0&showTabs=0&showPrint=0&title=Bambi%20Lee%20Cleaning%20%26%20Home%20Care%20Booking%20Availability&src=MzRhZGJjNDViNjZhNzJkNDA5NzE2NjEzMzJjNDdmMTllNWY2YjBmOGU2NWEzYjJkZDllZGY5OGIwMzNhNDYzYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5&color=%230B8043"></iframe>
+    <iframe className="calendar" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0KWtcJG0M_4s6L9L6FsOu_gpedX52q9LQl446y_1p0wjJePOPRMcPmaYEet6X7btQ7k9SJVZPk?gv=true"></iframe>
     </div>
   </div>
 
