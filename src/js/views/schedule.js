@@ -12,7 +12,7 @@ export const Schedule = () => {
   
   <div>
     <div className="container">
-    <iframe className="calendar" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0KWtcJG0M_4s6L9L6FsOu_gpedX52q9LQl446y_1p0wjJePOPRMcPmaYEet6X7btQ7k9SJVZPk?gv=true"></iframe>
+    <iframe className="calendar" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2y05ud25ySsY9s1WdRRGhJabXAjKz9X6oGPTfItUa-TU8IE7BcQRhW378XZ59PMkOOvafFpQzt?gv=true"></iframe>
     </div>
   </div>
 

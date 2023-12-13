@@ -1,30 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/navbar.css";
+
 
 export const Navbar = () => {
 	return (
-		<nav className="navigation mb-2">
+		
+		<nav className="navbar mb-2">
 			<Link to="/">
-				<span className="navbar-brand mb-5 h3">Bambi-Lee Cleaning & Home Care</span>
+			   <a href="BLogo.png">
+				
+
+			   </a>
 			</Link>
-			<div className="nav-buttons">
+			<div className="nav-links">
 				<Link to="/login">
-					<button className="btn btn-primary">Login</button>
+					<button className="button btn-primary">Login</button>
 				</Link>
-				<Link to="/register">
-					<button className="btn btn-primary">Register</button>
-				</Link>	<Link to="/schedule">
-					<button className="btn btn-primary">Schedule a Cleaning</button>
+					<Link to="/schedule">
+					<button className="button bi-calendar2-plus">Login</button>
 				</Link>
-				<button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Account
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Bookings</a></li>
-    <li><a class="dropdown-item" href="#">Inquiries</a></li>
-    <li><a class="dropdown-item" href="#">Logout</a></li>
-  </ul>
+				
 			</div>
 		</nav>
+	
 	);
 };
