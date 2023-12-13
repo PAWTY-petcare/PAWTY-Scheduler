@@ -1,13 +1,7 @@
-.body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
+.bg{
+  min-height: 500px;
+  min-width: 500px;
+}
   .triangle-container {
     position: relative;
     width: 0;
@@ -34,3 +28,4 @@
     border-radius: 10px; /* Adjust the radius as needed */
     cursor: pointer;
   }
+

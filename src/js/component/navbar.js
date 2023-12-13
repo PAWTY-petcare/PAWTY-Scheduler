@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/navbar.css";
+import BLogo from "/workspaces/Bambi-Lee-CHC/src/img/BLogo.png";
 
 
 export const Navbar = () => {
@@ -8,10 +9,9 @@ export const Navbar = () => {
 		
 		<nav className="navbar mb-2">
 			<Link to="/">
-			   <a href="BLogo.png">
-				
-
-			   </a>
+			 
+                 <img src={BLogo} alt="" />
+           	
 			</Link>
 			<div className="nav-links">
 				<Link to="/login">
