@@ -4,8 +4,8 @@ import "../../styles/home.css";
 
 export const Home = () => (
 	<div className="body text-center mt-5">
-    <div className="Container">
+  
 		<img className="bg" src={IMG_1062} alt="" />
 	</div>
-  </div>
+  
 );

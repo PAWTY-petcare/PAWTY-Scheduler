@@ -1,8 +1,9 @@
-.body {
-  margin: 0;
-  padding: 0;
+
+
+body {
+
   font-family: 'Arial', sans-serif;
-  background-color: linear-gradient(180deg, rgba(141, 202, 190, 0.6), rgba(0, 0, 0, 0.19)) /* Background color for the entire page */
+  background-color: black;
 }
 
 .navbar {
@@ -10,7 +11,7 @@
   background: linear-gradient(180deg, rgba(141, 202, 190, 0.6), rgba(0, 0, 0, 0.19)); /* Gradient background for the navbar */
   padding: 2px;
   display: flex;
-  justify-content: space-between;
+  justify-content: ;
 
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.35); /* Box shadow for a subtle glow */
 
