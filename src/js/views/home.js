@@ -1,5 +1,5 @@
 import React from "react";
-
+import BPrint from "../../image/BPrint.png";
 import "../../styles/home.css";
 
 export const Home = () => (
