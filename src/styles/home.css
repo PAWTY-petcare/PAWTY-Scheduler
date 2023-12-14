@@ -1,32 +1,7 @@
 
-.bg{
-  min-height: 500px;
-  min-width: 500px;
+.bambi-home{
+  display: flex;
+  height: ;
+  background-image: url("https://github.com/XIELEVENXVISIXTEEN/Bambi-Lee-CHC/blob/ea7fe5b0b61144ea944af498843cda943c581956/src/img/IMG_1062.png");
 }
-  .triangle-container {
-    position: relative;
-    width: 0;
-    height: 0;
-    border-left: 250px solid transparent;
-    border-right: 250px solid transparent;
-    border-bottom: 433px solid #3498db; /* Adjust the color as needed */
-    border-radius: 20px; /* Adjust the radius as needed */
-    overflow: hidden;
-  }
-  
-  .button-container {
-    position: absolute;
-    top: 20px; /* Adjust the vertical position as needed */
-    left: 20px; /* Adjust the horizontal position as needed */
-    display: flex;
-    gap: 0.5in;
-  }
-  
-  .button {
-    padding: 10px;
-    background-color: #ffffff; /* Adjust the color as needed */
-    border: 2px solid #3498db; /* Adjust the border color as needed */
-    border-radius: 10px; /* Adjust the radius as needed */
-    cursor: pointer;
-  }
 
