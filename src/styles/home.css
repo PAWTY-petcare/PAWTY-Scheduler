@@ -2,7 +2,7 @@
 .bambi-home{
   display: flex;
   height: 100vh;
-  background-image: url("/workspaces/Bambi-Lee-CHC/public/BPrint.png");
+  background-image: url("/workspaces/Bambi-Lee-CHC/src/image/BPrint.png");
   background-size: cover;
 }
 
