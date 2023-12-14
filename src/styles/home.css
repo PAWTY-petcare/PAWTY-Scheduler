@@ -1,7 +1,7 @@
 
-.bambi-home{
+bambi-home{
   display: flex;
-  height: ;
-  background-image: url("https://github.com/XIELEVENXVISIXTEEN/Bambi-Lee-CHC/blob/ea7fe5b0b61144ea944af498843cda943c581956/src/img/IMG_1062.png");
+  height: 100vh;
+  background-image: url('./image');
 }
 
