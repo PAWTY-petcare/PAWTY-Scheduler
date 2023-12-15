@@ -1,17 +1,16 @@
-
+body{
+  background-color: rgba(128, 128, 128, 0.335);
+}
 .navbar {
 
   background: linear-gradient(180deg, rgba(141, 202, 190, 0.6), rgba(0, 0, 0, 0.19)); /* Gradient background for the navbar */
-  padding: 2px;
   display: flex;
   justify-content: space-between;
 
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.35); /* Box shadow for a subtle glow */
-
 }
 .logo{
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 95px;
 }
 
 
