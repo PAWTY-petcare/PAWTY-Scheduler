@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(128, 128, 128, 0.335);
+  background-color: rgba(255, 255, 255, 0.335);
 }
 .navbar {
 
@@ -9,20 +9,20 @@ body{
 
 }
 .logo{
-  height: 125px;
-  width: 95px;
+  height: 175px;
+  width: 125px;
 }
 
 
 
 
 .button {
-  border-radius: 60%;
-  background-color: rgba(64, 224, 208, 0.545);
-  border-color: rgba(0, 0, 255, 0.032);
-  border-style: ridge rgba(251, 252, 253, 0.166);
+  height: 80px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.545);
+  border-style:outset;
   text-decoration: none;
-  color: #8bfff95c;
+  color: #ffffff5c;
   font-weight: bold;
   font-size: 16px;
   position: relative;

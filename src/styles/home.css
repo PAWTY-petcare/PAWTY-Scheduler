@@ -1,48 +1,166 @@
+@keyframes opacityLoop{
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes growAnimation {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.5);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+@keyframes growAndDisappear {
+  0% {
+      transform: translateY(100vh) scale(0);
+      opacity: 0.3;
+  }
+  50% {
+      transform: translateY(50vh) scale(.5);
+      opacity: .7;
+  }
+  100% {
+      transform: translateY(0) scale(1);
+      opacity: .9;
+  }
+}
 
 .bambi-home{
-  display: inline-block;
+  display: inline-table;
   
 }
 .top-left{
-  padding-left: 2%;
+ 
+ padding-left: 4%;
+ background-blend-mode: screen;
   width: 300px;
   height: 300px;
   border-radius: 100%;
   border-style: groove;
-  margin-right: 40%;
-  margin-left: 4%;
+  margin-right: 0%;
+  margin-top: 1%;
   opacity: 90%;
-  background-color: rgba(212, 237, 237, 0.036);
+  background: linear-gradient(350deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
   box-shadow: 0px 0px 50px rgb(205, 249, 255);
-
+  float: center;
+  transform: translateX(-50%);
+  animation: growAndDisappear 6s infinite;
 
 }
 .bottom-right{
+  padding-right: 2%;
   width: 400px;
+  margin-top: 3%;
+  margin-bottom: 3%;
   height: 400px;
   border-radius: 100%;
   border-style: groove ;
-  margin-bottom: 10%;
-  animation: opacityLoop 10s infinite,
-                          0%  opacity 1,
-                         50% opacity 0.5,
-                        100% opacity 1;
-  box-shadow: 10px 30px 50px rgb(238, 246, 247);
+  background: linear-gradient(195deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+  box-shadow: 0px 0px 50px rgb(205, 249, 255);
+  float: right;
+  transform: translateX(-50%);
+  animation: growAndDisappear 3s infinite;
+
 
 }
 .top-right{
-  width: 500px;
-  height: 500px;
+  padding-right: .7%;
+  width: 200px;
+  height: 200px;
+ 
+  margin-left: 1%;
   border-radius: 100%;
   border-style: groove;
+  background: linear-gradient(300deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+  box-shadow: 0px 0px 50px rgb(205, 249, 255);
+  float: inline-end;
+  transform: translateX(-50%);
+  animation: growAndDisappear 2s infinite; 
   
 
 }
 .bottom-left{
-  width: 500px;
-  height: 500px;
+  padding-left: 2%;
+  width: 275px;
+  height: 275px;
+  margin-left: 30%;
   border-radius: 100%;
   border-style: groove;
- 
+  background: linear-gradient(280deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+  box-shadow: 0px 0px 50px rgb(205, 249, 255);
+  float: inherit;
+  transform: translateX(-50%);
+  animation: growAndDisappear 5s infinite;
 }
 
+.top-left-a{
+ 
+  padding-left: 1%;
+  
+   width: 85px;
+   height: 85px;
+   border-radius: 100%;
+   border-style: groove;
+  margin-top: 10%;
+   margin-right: 3%;
+   margin-left: 4%;
+   opacity: 70%;
+   background: linear-gradient(350deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+   box-shadow: 0px 0px 50px rgb(205, 249, 255);
+   transform: translateX(-50%);
+   animation: growAndDisappear 3s infinite;
+  
+ 
+ 
+ }
+ .bottom-right-a{
+   padding-right: 2%;
+   
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   border-style: groove ;
+   opacity: 80%;
+   background: linear-gradient(195deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+   box-shadow: 0px 0px 50px rgb(205, 249, 255);
+   overflow-x: auto;
+  position: static;
+  transform: translateX(-50%);
+  animation: growAndDisappear 4s infinite;
+ 
+ 
+ }
+ .top-right-a{
+   padding-right: .7%;
+   width: 40px;
+   height: 40px;
+   margin-right: 5%;
+   margin-left: 1%;
+   margin-bottom: 0%;
+   border-radius: 100%;
+   border-style: groove;
+   opacity: 70%;
+   background: linear-gradient(300deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+   box-shadow: 0px 0px 50px rgb(205, 249, 255);
+   transform: translateX(-50%);
+  animation: growAndDisappear 7s infinite;
+   
+ 
+ }
+ .bottom-left-a{
+   padding-left: 2%;
+   width: 75px;
+   height: 75px;
+   border-radius: 100%;
+   opacity: 70%;
+   border-style: groove;
+   background: linear-gradient(280deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
+   box-shadow: 0px 0px 50px rgb(205, 249, 255);
+   float: inline-start;
+   transform: translateX(-50%);
+  animation: growAndDisappear 2s infinite;
+ }

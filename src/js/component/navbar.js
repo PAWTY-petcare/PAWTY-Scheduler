@@ -15,10 +15,10 @@ export const Navbar = () => {
 			</Link>
 			<div className="nav-links">
 				<Link to="/login">
-					<button className="button btn-primary">Login</button>
+					<button className="button btn-primary">Contact Us</button>
 				</Link>
 					<Link to="/schedule">
-					<button className="button bi-calendar2-plus">Login</button>
+					<button className="button bi-calendar2-plus">Schedule a Cleaning</button>
 				</Link>
 				
 			</div>
