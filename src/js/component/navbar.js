@@ -18,7 +18,7 @@ export const Navbar = () => {
 					<button className="button btn-primary">Contact Us</button>
 				</Link>
 					<Link to="/schedule">
-					<button className="button bi-calendar2-plus">Schedule a Cleaning</button>
+					<button className="button btn-primary">Schedule a Cleaning</button>
 				</Link>
 				
 			</div>

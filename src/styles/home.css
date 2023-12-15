@@ -31,7 +31,7 @@
 
 .bambi-home{
   display: inline-table;
-  
+  text-align: start;
 }
 .top-left{
  
@@ -163,4 +163,15 @@
    float: inline-start;
    transform: translateX(-50%);
   animation: growAndDisappear 2s infinite;
+ }
+ 
+ h1{
+  font-size: 405%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: rgba(128, 128, 128, 0.613);
+  animation: opacityLoop 10s infinite;
+
+  
+
  }
