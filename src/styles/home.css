@@ -32,7 +32,8 @@
 
 .bambi-home{
   display: inline-table;
-  text-align: start;
+  
+  
 
 }
 .top-left{
@@ -140,11 +141,12 @@
  }
  
  h1{
-  font-size: 300%;
+  font-size: 550%;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
   color: rgba(128, 128, 128, 0.613);
   animation: opacityLoop 10s infinite;
+  
 
   
 

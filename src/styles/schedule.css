@@ -1,4 +1,11 @@
 .calendar{
-    width: 1000px;
+    max-width: 1150px;
+    min-width: 550px;
     height: 900px;
+
+
 }
+ .container{
+    align-items: center;
+
+ }
