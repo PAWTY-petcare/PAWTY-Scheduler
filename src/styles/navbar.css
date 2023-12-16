@@ -1,5 +1,19 @@
+@keyframes gradientLoop {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
 body{
-  background-color: rgba(255, 255, 255, 0.335);
+  background: linear-gradient(to right, #ffffff, #c1eaed, #5b59583c);
+  background-size: 200% 100%;
+  animation: gradientLoop 10s linear infinite;
 }
 .navbar {
 
@@ -17,15 +31,16 @@ body{
 
 
 .button {
-  height: 80px;
-  width: 200px;
+  margin-right: 5%;
+  height: 60px;
+  width: 180px;
   background-color: rgba(255, 255, 255, 0.545);
   border-style:outset;
   text-decoration: none;
   color: #ffffff5c;
   font-weight: bold;
   font-size: 16px;
-  position: relative;
+  float: right;
   box-shadow: 0 0 20px rgb(208, 242, 250);
 
 }

@@ -21,152 +21,126 @@
   }
   50% {
       transform: translateY(50vh) scale(.5);
-      opacity: .7;
+      opacity: 0.8;
   }
   100% {
       transform: translateY(0) scale(1);
-      opacity: .9;
+      opacity: 1;
   }
 }
+
 
 .bambi-home{
   display: inline-table;
   text-align: start;
+
 }
 .top-left{
- 
- padding-left: 4%;
- background-blend-mode: screen;
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  border-style: groove;
-  margin-right: 0%;
-  margin-top: 1%;
-  opacity: 90%;
-  background: linear-gradient(350deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-  box-shadow: 0px 0px 50px rgb(205, 249, 255);
-  float: center;
-  transform: translateX(-50%);
-  animation: growAndDisappear 6s infinite;
+   padding-left: 1%;
+   width: 90px;
+   height: 90px;
+   border-radius: 100%;
+   border-style: groove;
+   background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751),);
+   box-shadow: 1px -3px 4px rgb(95, 95, 95);
+   float: inline-start;
+   transform: translateX(-50%);
+   animation: growAndDisappear 10s infinite;
+ }
 
-}
 .bottom-right{
-  padding-right: 2%;
-  width: 400px;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  height: 400px;
-  border-radius: 100%;
-  border-style: groove ;
-  background: linear-gradient(195deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-  box-shadow: 0px 0px 50px rgb(205, 249, 255);
-  float: right;
-  transform: translateX(-50%);
-  animation: growAndDisappear 3s infinite;
-
-
-}
-.top-right{
-  padding-right: .7%;
-  width: 200px;
-  height: 200px;
- 
-  margin-left: 1%;
-  border-radius: 100%;
-  border-style: groove;
-  background: linear-gradient(300deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-  box-shadow: 0px 0px 50px rgb(205, 249, 255);
-  float: inline-end;
-  transform: translateX(-50%);
-  animation: growAndDisappear 2s infinite; 
-  
-
-}
-.bottom-left{
-  padding-left: 2%;
+  padding-right: 3%;
   width: 275px;
   height: 275px;
-  margin-left: 30%;
   border-radius: 100%;
   border-style: groove;
-  background: linear-gradient(280deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-  box-shadow: 0px 0px 50px rgb(205, 249, 255);
-  float: inherit;
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
+  box-shadow: 1px -3px 4px rgb(95, 95, 95);
+  float: inline-start;
   transform: translateX(-50%);
-  animation: growAndDisappear 5s infinite;
+  animation: growAndDisappear 12s infinite;
+}
+.top-right{
+  padding-right: 2%;
+  width: 330px;
+  height: 330px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
+  box-shadow: 1px -3px 4px rgb(95, 95, 95);
+  float: inline-start;
+  transform: translateX(-50%);
+  animation: growAndDisappear 11s infinite;
+}
+.bottom-left{
+  padding-left: 3%;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
+  box-shadow: 1px -3px 4px rgb(95, 95, 95);
+  float: inline-start;
+  transform: translateX(-50%);
+ animation: growAndDisappear 10s infinite;
 }
 
 .top-left-a{
- 
   padding-left: 1%;
-  
-   width: 85px;
-   height: 85px;
-   border-radius: 100%;
-   border-style: groove;
-  margin-top: 10%;
-   margin-right: 3%;
-   margin-left: 4%;
-   opacity: 70%;
-   background: linear-gradient(350deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-   box-shadow: 0px 0px 50px rgb(205, 249, 255);
-   transform: translateX(-50%);
-   animation: growAndDisappear 3s infinite;
-  
- 
- 
- }
- .bottom-right-a{
-   padding-right: 2%;
-   
-   width: 100px;
-   height: 100px;
-   border-radius: 100%;
-   border-style: groove ;
-   opacity: 80%;
-   background: linear-gradient(195deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-   box-shadow: 0px 0px 50px rgb(205, 249, 255);
-   overflow-x: auto;
-  position: static;
+  width: 235px;
+  height: 235px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
+  box-shadow: 1px -3px 4px rgb(95, 95, 95);
+  float: inline-start;
   transform: translateX(-50%);
-  animation: growAndDisappear 4s infinite;
+  animation: growAndDisappear 9s infinite;
+}
+  
+.bottom-right-a{
+  padding-right: 2%;
+  width: 155px;
+  height: 155px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
+  box-shadow: 1px -3px 6px rgb(95, 95, 95);
+  float: inline-start;
+  transform: translateX(-50%);
+  animation: growAndDisappear 11s infinite;
+}
  
- 
- }
- .top-right-a{
-   padding-right: .7%;
-   width: 40px;
-   height: 40px;
-   margin-right: 5%;
-   margin-left: 1%;
-   margin-bottom: 0%;
-   border-radius: 100%;
-   border-style: groove;
-   opacity: 70%;
-   background: linear-gradient(300deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-   box-shadow: 0px 0px 50px rgb(205, 249, 255);
-   transform: translateX(-50%);
-  animation: growAndDisappear 7s infinite;
+
+.top-right-a{
+  padding-right: 1%;
+  width: 105px;
+  height: 105px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
+  box-shadow: 1px -3px 6px rgb(95, 95, 95);
+  float: inline-start;
+  transform: translateX(-50%);
+ animation: growAndDisappear 13s infinite;
+}
    
- 
- }
+
  .bottom-left-a{
-   padding-left: 2%;
-   width: 75px;
-   height: 75px;
+   padding-left: 3%;
+   width: 365px;
+   height: 365px;
    border-radius: 100%;
-   opacity: 70%;
    border-style: groove;
-   background: linear-gradient(280deg, rgba(161, 206, 226, 0.413), rgba(152, 204, 204, 0.113));
-   box-shadow: 0px 0px 50px rgb(205, 249, 255);
+   background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
+   box-shadow: 1px -3px 6px rgb(95, 95, 95);
    float: inline-start;
    transform: translateX(-50%);
-  animation: growAndDisappear 2s infinite;
+   animation: growAndDisappear 11s infinite;
  }
  
  h1{
-  font-size: 405%;
+  font-size: 300%;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
   color: rgba(128, 128, 128, 0.613);
