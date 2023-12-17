@@ -40,9 +40,9 @@
 h1{
   font-size: 100px;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 400;
+  font-weight: 999;
   font-stretch: expanded;
-  color: rgba(128, 128, 128, 0.59);
+  color: rgba(97, 97, 97, 0.772);
   background-size: cover;
   animation: opacityLoop 10s infinite;
 }
@@ -56,49 +56,49 @@ h1{
    border-style: groove;
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751),);
    box-shadow: 1px -3px 4px rgb(95, 95, 95);
-   animation: growAndDisappear 5s infinite;
+   animation: growAndDisappear 11s infinite;
  }
 
 .bottom-right{
   padding-right: 3%;
-  width: 275px;
-  height: 275px;
+  width: 175px;
+  height: 175px;
   border-radius: 100%;
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  animation: growAndDisappear 6s infinite;
+  animation: growAndDisappear 9s infinite;
 }
 .top-right{
   padding-right: 2%;
-  width: 330px;
-  height: 330px;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  animation: growAndDisappear 5.5s infinite;
+  animation: growAndDisappear 8s infinite;
 }
 .bottom-left{
   padding-left: 3%;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   border-style: groove;
   background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
- animation: growAndDisappear 5s infinite;
+ animation: growAndDisappear 6s infinite;
 }
 
 .top-left-a{
   padding-left: 1%;
-  width: 235px;
-  height: 235px;
+  width: 135px;
+  height: 135px;
   border-radius: 100%;
   border-style: groove;
   background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  animation: growAndDisappear 9s infinite;
+  animation: growAndDisappear 12s infinite;
 }
   
 .bottom-right-a{
@@ -127,8 +127,8 @@ h1{
 
  .bottom-left-a{
    padding-left: 3%;
-   width: 365px;
-   height: 365px;
+   width: 265px;
+   height: 265px;
    border-radius: 100%;
    border-style: groove;
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
