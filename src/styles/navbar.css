@@ -20,14 +20,18 @@ body{
   background: linear-gradient(180deg, rgba(141, 202, 190, 0.6), rgba(0, 0, 0, 0.19)); /* Gradient background for the navbar */
   display: flex;
   min-width: 550px;
+  border-bottom-style: inset 10px rgba(147, 194, 194, 0.29);
+
 
 
 }
 .logo{
   height: 165px;
-  width: 115px;
-  border-style:inset;
-  border-color: rgba(128, 128, 128, 0.458) rgba(211, 211, 211, 0.516);
+  width: 125px;
+  border-style: ridge;
+  background-color: rgba(255, 255, 255, 0.956);
+  border-width: 10px;
+  border-color:  rgba(197, 200, 206, 0.404) rgba(182, 242, 251, 0.33);
   
 }
 
@@ -38,10 +42,12 @@ body{
   margin-right: 5%;
   height: 60px;
   width: 180px;
-  background-color: rgba(255, 255, 255, 0.545);
-  border-style:outset;
-  text-decoration: none;
-  color: #ffffff5c;
+  border-style: ridge;
+  background-color: rgba(255, 255, 255, 0.625);
+  border-width: 10px;
+  border-color:  rgba(197, 200, 206, 0.404) rgba(182, 242, 251, 0.33);
+  font-family: 'Times New Roman', Times, serif;
+  
   font-weight: bold;
   font-size: 16px;
   float: right;

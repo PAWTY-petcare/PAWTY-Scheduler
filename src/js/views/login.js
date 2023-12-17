@@ -6,9 +6,9 @@ import IMG_1229 from "/workspaces/Bambi-Lee-CHC/src/image/IMG_1229.jpg";
 
 
 
-export const Login = () => {
+export const Login = () => (
 
     <div classname="Business-Card">
        <img className="Bcontact" src={IMG_1229} alt="bleecontact" />
     </div>
-}
+);
