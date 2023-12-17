@@ -16,7 +16,7 @@
 }
 @keyframes growAndDisappear {
   0% {
-      transform: translateY(100vh) scale(0);
+      transform: translateY(75vh) scale(0);
       opacity: 0.3;
   }
   50% {
@@ -24,18 +24,28 @@
       opacity: 0.8;
   }
   100% {
-      transform: translateY(0) scale(1);
+      transform: translateY(-95vh) scale(1);
       opacity: 1;
   }
 }
 
 
-.bambi-home{
-  display: inline-table;
-  
-  
 
+.bambi-home{
+  display: inline;
+  max-width: 550px;
+  max-height: 300px ;
 }
+h1{
+  font-size: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-stretch: expanded;
+  color: grey;
+  animation: opacityLoop 10s infinite;
+}
+
+
 .top-left{
    padding-left: 1%;
    width: 90px;
@@ -44,9 +54,7 @@
    border-style: groove;
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751),);
    box-shadow: 1px -3px 4px rgb(95, 95, 95);
-   float: inline-start;
-   transform: translateX(-50%);
-   animation: growAndDisappear 10s infinite;
+   animation: growAndDisappear 5s infinite;
  }
 
 .bottom-right{
@@ -57,9 +65,7 @@
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  float: inline-start;
-  transform: translateX(-50%);
-  animation: growAndDisappear 12s infinite;
+  animation: growAndDisappear 6s infinite;
 }
 .top-right{
   padding-right: 2%;
@@ -69,9 +75,7 @@
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  float: inline-start;
-  transform: translateX(-50%);
-  animation: growAndDisappear 11s infinite;
+  animation: growAndDisappear 5.5s infinite;
 }
 .bottom-left{
   padding-left: 3%;
@@ -81,9 +85,7 @@
   border-style: groove;
   background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  float: inline-start;
-  transform: translateX(-50%);
- animation: growAndDisappear 10s infinite;
+ animation: growAndDisappear 5s infinite;
 }
 
 .top-left-a{
@@ -94,8 +96,6 @@
   border-style: groove;
   background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
-  float: inline-start;
-  transform: translateX(-50%);
   animation: growAndDisappear 9s infinite;
 }
   
@@ -107,9 +107,7 @@
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
-  float: inline-start;
-  transform: translateX(-50%);
-  animation: growAndDisappear 11s infinite;
+  animation: growAndDisappear 5.5s infinite;
 }
  
 
@@ -121,9 +119,7 @@
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
-  float: inline-start;
-  transform: translateX(-50%);
- animation: growAndDisappear 13s infinite;
+ animation: growAndDisappear 6.5s infinite;
 }
    
 
@@ -135,19 +131,8 @@
    border-style: groove;
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
-   float: inline-start;
-   transform: translateX(-50%);
-   animation: growAndDisappear 11s infinite;
+   /* float: inline-start; */
+   transform: translateX(30%);
+   animation: growAndDisappear 5.5s infinite;
  }
  
- h1{
-  font-size: 550%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 900;
-  color: rgba(128, 128, 128, 0.613);
-  animation: opacityLoop 10s infinite;
-  
-
-  
-
- }

@@ -13,14 +13,16 @@
 body{
   background: linear-gradient(to right, #ffffff, #c1eaed, #5b59583c);
   background-size: 200% 100%;
-  animation: gradientLoop 10s reverse;
+  animation: gradientLoop 7s reverse infinite;
   min-width: 550px;
+  height: 300px;
 }
 .navbar {
 
   background: linear-gradient(180deg, rgba(141, 202, 190, 0.6), rgba(0, 0, 0, 0.19)); /* Gradient background for the navbar */
   display: flex;
   min-width: 550px;
+
 
 }
 .logo{
