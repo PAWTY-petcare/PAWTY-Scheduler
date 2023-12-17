@@ -11,11 +11,9 @@
 }
 
 body{
-  background: linear-gradient(to right, #ffffff, #c1eaed, #5b59583c);
-  background-size: 200% 100%;
-  animation: gradientLoop 7s reverse infinite;
+  background: linear-gradient( to top, #ffffff, #c1eaed, #5b59583c);
+  animation: gradientLoop 7s infinite;
   min-width: 550px;
-  height: 300px;
 }
 .navbar {
 
@@ -28,6 +26,9 @@ body{
 .logo{
   height: 165px;
   width: 115px;
+  border-style:inset;
+  border-color: rgba(128, 128, 128, 0.458) rgba(211, 211, 211, 0.516);
+  
 }
 
 
