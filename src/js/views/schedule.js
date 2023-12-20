@@ -5,10 +5,8 @@ import "../../styles/schedule.css"
 
 
 
-export const Schedule = () => {
-    const { store, actions } = useContext(Context);
-
-  return(
+export const Schedule = () => (
+  
   
   <div>
     <div className="container">
@@ -23,4 +21,3 @@ export const Schedule = () => {
   
 
   );
-};
