@@ -11,7 +11,7 @@
 }
 
 body{
-  background: linear-gradient( to top, #ffffff, #c1eaed, #5b59583c);
+  background: linear-gradient( to top, #c3c3c378, #c1eaed, #5b59583c);
   animation: gradientLoop 7s infinite;
   min-width: 550px;
 }
