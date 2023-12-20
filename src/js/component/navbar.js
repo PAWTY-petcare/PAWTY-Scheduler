@@ -5,6 +5,7 @@ import BLogo from "../../image/BLogo.png";
 
 
 export const Navbar = () => {
+	
 	return (
 		
 		<nav className="navbar mb-2">

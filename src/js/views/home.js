@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext, useState } from "react";
+import { Context } from "../store/appContext";
+import { useNavigate } from "react-router-dom";
 import BPrint from "../../image/BPrint.png";
 import "../../styles/home.css";
 
-export const Home = () => (
+export const Home = () => {
+
+	return(
  <div className="container">
 	<section className="bambi-home"> <h1>Bambi-Lee<br />
 	                                 Cleaning &<br />
@@ -19,5 +23,5 @@ export const Home = () => (
 	  <img className="top-right-a" src={BPrint} alt="bambiprint" />
 	</section>
  </div>
-  
-);
+	);
+};
