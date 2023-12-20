@@ -31,6 +31,7 @@
 
 
 
+
 .bambi-home{
   display: inline;
   max-width: 550px;
@@ -40,11 +41,15 @@
 h1{
   font-size: 100px;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 999;
+  font-weight: 1050;
   font-stretch: expanded;
-  color: rgba(97, 97, 97, 0.772);
-  background-size: cover;
+  color: rgba(255, 255, 255, 0.855);
+  background-color: radial-gradient(180deg,rgba(173, 216, 230, 0.752) rgba(253, 245, 230, 0.517));
   animation: opacityLoop 10s infinite;
+  border-style: inset;
+  border-width: 10px;
+  border-color: rgba(191, 253, 253, 0.404) rgba(255, 255, 255, 0.58);
+  box-shadow: inset 1px 0px 4px rgb(199, 251, 250);
 }
 
 
@@ -54,7 +59,7 @@ h1{
    height: 90px;
    border-radius: 100%;
    border-style: groove;
-   background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751),);
+   background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 4px rgb(95, 95, 95);
    animation: growAndDisappear 11s infinite;
  }
