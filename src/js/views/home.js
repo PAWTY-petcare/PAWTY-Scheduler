@@ -21,6 +21,11 @@ export const Home = () => {
 	  <img className="bottom-right-a" src={BPrint} alt="bambiprint" />
 	  <img className="bottom-left" src={BPrint} alt="bambiprint" />
 	  <img className="top-right-a" src={BPrint} alt="bambiprint" />
+	  <img className="bottom-left-b" src={BPrint} alt="bambiprint" />
+	  <img className="top-left-b" src={BPrint} alt="bambiprint" />
+	  <img className="bottom-right-b" src={BPrint} alt="bambiprint" />
+	  <img className="top-right-b" src={BPrint} alt="bambiprint" />
+
 	</section>
  </div>
 	);

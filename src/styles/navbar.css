@@ -11,9 +11,10 @@
 }
 
 body{
-  background: linear-gradient( to top, #c3c3c378, #c1eaed, #5b59583c);
-  animation: gradientLoop 7s infinite;
+  padding-bottom: 200px;
+  background-color: rgba(0, 0, 0, 0.409);
   min-width: 550px;
+
 }
 .navbar {
 

@@ -29,7 +29,9 @@
   }
 }
 
+.container{
 
+}
 
 
 .bambi-home{
@@ -45,9 +47,11 @@ h1{
   font-stretch: expanded;
   color: rgba(255, 255, 255, 0.855);
   background-color: radial-gradient(180deg,rgba(173, 216, 230, 0.752) rgba(253, 245, 230, 0.517));
+  
   animation: opacityLoop 10s infinite;
   border-style: inset;
   border-width: 10px;
+
   border-color: rgba(191, 253, 253, 0.404) rgba(255, 255, 255, 0.58);
   box-shadow: inset 1px 0px 4px rgb(199, 251, 250);
 }
@@ -140,4 +144,50 @@ h1{
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
    animation: growAndDisappear 5.5s infinite;
  }
+ .top-left-b{
+  padding-left: 1%;
+  width: 135px;
+  height: 135px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
+  box-shadow: 1px -3px 4px rgb(95, 95, 95);
+  animation: growAndDisappear 12s infinite;
+}
+  
+.bottom-right-b{
+  padding-right: 2%;
+  width: 155px;
+  height: 155px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
+  box-shadow: 1px -3px 6px rgb(95, 95, 95);
+  animation: growAndDisappear 5.5s infinite;
+}
  
+
+.top-right-b{
+  padding-right: 1%;
+  width: 105px;
+  height: 105px;
+  border-radius: 100%;
+  border-style: groove;
+  background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
+  box-shadow: 1px -3px 6px rgb(95, 95, 95);
+ animation: growAndDisappear 6.5s infinite;
+}
+   
+
+ .bottom-left-b{
+   padding-left: 3%;
+   width: 265px;
+   height: 265px;
+   border-radius: 100%;
+   border-style: groove;
+   background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
+   box-shadow: 1px -3px 6px rgb(95, 95, 95);
+   animation: growAndDisappear 5.5s infinite;
+ }
+ 
+
