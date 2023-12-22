@@ -24,14 +24,12 @@
       opacity: 0.9;
   }
   100% {
-      transform: translateY(-89vh) scale(1);
+      transform: translateY(-135vh) scale(1);
       opacity: 0.7;
   }
 }
 
-.container{
 
-}
 
 
 .bambi-home{
@@ -55,6 +53,23 @@ h1{
   border-color: rgba(191, 253, 253, 0.404) rgba(255, 255, 255, 0.58);
   box-shadow: inset 1px 0px 4px rgb(199, 251, 250);
 }
+h2{
+  font-size: 64px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1050;
+  font-stretch: expanded;
+  color: rgba(255, 255, 255, 0.855);
+  text-decoration: underline;
+
+}
+li{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1050;
+  font-stretch: expanded;
+  color: rgba(255, 255, 255, 0.855);
+
+}
 
 
 .top-left{
@@ -66,6 +81,7 @@ h1{
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 4px rgb(95, 95, 95);
    animation: growAndDisappear 11s infinite;
+   opacity: 65%;
  }
 
 .bottom-right{
@@ -77,6 +93,7 @@ h1{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 9s infinite;
+  opacity: 64%;
 }
 .top-right{
   padding-right: 2%;
@@ -87,6 +104,7 @@ h1{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 8s infinite;
+  opacity: 64%;
 }
 .bottom-left{
   padding-left: 3%;
@@ -97,6 +115,7 @@ h1{
   background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
  animation: growAndDisappear 6s infinite;
+ opacity: 64%;
 }
 
 .top-left-a{
@@ -108,6 +127,7 @@ h1{
   background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 12s infinite;
+  opacity: 64%;
 }
   
 .bottom-right-a{
@@ -119,6 +139,7 @@ h1{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
   animation: growAndDisappear 5.5s infinite;
+  opacity: 64%;
 }
  
 
@@ -131,6 +152,7 @@ h1{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
  animation: growAndDisappear 6.5s infinite;
+ opacity: 64%;
 }
    
 
@@ -143,6 +165,7 @@ h1{
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
    animation: growAndDisappear 5.5s infinite;
+   opacity: 64%;
  }
  .top-left-b{
   padding-left: 1%;
@@ -153,6 +176,7 @@ h1{
   background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 12s infinite;
+  opacity: 64%;
 }
   
 .bottom-right-b{
@@ -164,6 +188,7 @@ h1{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
   animation: growAndDisappear 5.5s infinite;
+  opacity: 64%;
 }
  
 
@@ -176,6 +201,7 @@ h1{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
  animation: growAndDisappear 6.5s infinite;
+ opacity: 64%;
 }
    
 
@@ -188,6 +214,7 @@ h1{
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
    animation: growAndDisappear 5.5s infinite;
+   opacity: 64%;
  }
  
 

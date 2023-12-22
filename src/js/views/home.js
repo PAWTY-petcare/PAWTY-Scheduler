@@ -9,10 +9,16 @@ export const Home = () => {
 	return(
  <div className="container">
 	<section className="bambi-home"> <h1>Bambi-Lee<br />
-	                                 Cleaning &<br />
-									 Home<br />
-									 Care<br />
+	                                 Cleaning<br />
+									 &<br />
+									 Home Care<br />
 									 </h1>
+	<h2>Scope of Service</h2>
+	<li>For contract Commercial property routined cleaning and maintenence</li>
+	<li>Airbnb/Short term rental property routined cleaning and maintenence</li>
+	<li>Residential property cleaning and maintenence </li>
+	<li>Organizational planning and implimentation</li>
+
 	  <img className="bottom-left-a" src={BPrint} alt="bambiprint" />
       <img className="top-left" src={BPrint} alt="bambiprint" />
 	  <img className="top-left-a" src={BPrint} alt="bambiprint" />
