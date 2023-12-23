@@ -45,7 +45,8 @@ h1{
   font-stretch: expanded;
   color: rgba(255, 255, 255, 0.855);
   background-color: radial-gradient(180deg,rgba(173, 216, 230, 0.752) rgba(253, 245, 230, 0.517));
-  
+  border-radius: 50%;
+  background-color: rgba(240, 248, 255, 0.509);
   animation: opacityLoop 10s infinite;
   border-style: inset;
   border-width: 10px;
@@ -138,7 +139,7 @@ li{
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
-  animation: growAndDisappear 5.5s infinite;
+  animation: growAndDisappear 11.5s infinite;
   opacity: 64%;
 }
  
@@ -164,7 +165,7 @@ li{
    border-style: groove;
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
-   animation: growAndDisappear 5.5s infinite;
+   animation: growAndDisappear 7.5s infinite;
    opacity: 64%;
  }
  .top-left-b{
@@ -187,7 +188,7 @@ li{
   border-style: groove;
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
-  animation: growAndDisappear 5.5s infinite;
+  animation: growAndDisappear 2.5s infinite;
   opacity: 64%;
 }
  
