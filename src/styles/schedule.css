@@ -7,11 +7,12 @@
   border-width: 10px;
   border-color: rgba(191, 253, 253, 0.263) rgba(255, 255, 255, 0.397);
   box-shadow: inset 1px 0px 4px rgb(199, 251, 250);
-  margin-left: 24%;
+  justify-content: center;
 
 
 }
  .container{
+    display: flex;
     align-items: center;
 
  }

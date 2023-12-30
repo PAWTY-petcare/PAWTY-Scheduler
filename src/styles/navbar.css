@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 @keyframes gradientLoop {
   0% {
       background-position: 0% 50%;
@@ -11,49 +22,53 @@
 }
 
 body{
+  display: block;
   padding-bottom: 200px;
-  background-color: rgba(0, 0, 0, 0.409);
+  background-color: rgba(144, 184, 184, 0.763);
   min-width: 550px;
 
 }
-.navbar {
 
-  background: linear-gradient(180deg, rgba(141, 202, 190, 0.6), rgba(0, 0, 0, 0.19)); /* Gradient background for the navbar */
+.nav-pills{
   display: flex;
-  min-width: 550px;
-  border-bottom-style: inset 10px rgba(147, 194, 194, 0.29);
-
-
-
+  flex-direction: column;
 }
-.logo{
-  height: 165px;
-  width: 125px;
-  border-style: ridge;
-  background-color: rgba(255, 255, 255, 0.956);
-  border-width: 10px;
-  border-color:  rgba(197, 200, 206, 0.404) rgba(182, 242, 251, 0.33);
-  
+
+ 
+.BleeLogo{
+  width: 10rem;
+  height: 15rem;
 }
 
 
 
-
-.button {
-  margin-right: 5%;
-  height: 60px;
-  width: 180px;
-  border-style: ridge;
-  background-color: rgba(255, 255, 255, 0.625);
-  border-width: 10px;
-  border-color:  rgba(197, 200, 206, 0.404) rgba(182, 242, 251, 0.33);
-  font-family: 'Times New Roman', Times, serif;
-  
-  font-weight: bold;
-  font-size: 16px;
-  float: right;
-  box-shadow: 0 0 20px rgb(208, 242, 250);
-
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 13rem;
+  background-color: rgba(199, 223, 221, 0.589);
+  box-shadow: 45px 34px 55px rgba(243, 255, 255, 0.737);
+  border-right-style: inset;
+ border-right-width: 1.2rem;
+ border-right-color:  rgba(186, 227, 227, 0.489);
+ border-left-style: inset;
+ border-left-width: .3rem;
+ border-left-color:  rgba(192, 227, 227, 0.202);
+ border-bottom-style: inset;
+ border-bottom-width: 1.5rem;
+ border-bottom-color:rgba(186, 222, 222, 0.339);
+ border-top-style: inset;
+ border-top-width: .3rem;
+ border-top-color:rgba(186, 222, 222, 0.212);
+ border-bottom-right-radius: 6%;
+ border-bottom-left-radius: 0%;
+ border-top-right-radius: 18%;
+ border-top-left-radius: 0%;
 }
 
-
+.nav-link{
+  display: block;
+  width:11.6rem;
+  border-radius: 10%;
+}

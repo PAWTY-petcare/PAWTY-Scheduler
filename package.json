@@ -74,8 +74,11 @@
 		]
 	},
 	"dependencies": {
+		"babel-plugin-macros": "^3.1.0",
 		"bootstrap": "^5.3.2",
 		"bootstrap-icons": "^1.11.2",
+		"fontawesome": "^5.6.3",
+		"fortawesome": "^0.0.1-security",
 		"googleapis": "^128.0.0",
 		"prop-types": "^15.7.2",
 		"query-string": "^7.0.1",

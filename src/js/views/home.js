@@ -18,7 +18,7 @@ export const Home = () => {
 	<li>Airbnb/Short term rental property routined cleaning and maintenence</li>
 	<li>Residential property cleaning and maintenence </li>
 	<li>Organizational planning and implimentation</li>
-
+		
 	  <img className="bottom-left-a" src={BPrint} alt="bambiprint" />
       <img className="top-left" src={BPrint} alt="bambiprint" />
 	  <img className="top-left-a" src={BPrint} alt="bambiprint" />
