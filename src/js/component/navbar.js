@@ -2,15 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/navbar.css";
 import BLogo from "../../image/BLogo.png";
-
-
+import Video from "../../image/Video.mp4";
 
 export const Navbar = () => {
 	
 	return (
 
   <nav className="nav-container">
-    <img className="BleeLogo" src={BLogo} alt="bleelogo" />
+    <img className="BleeLogovid" src={Video} alt="bleelogovid" />
       <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
