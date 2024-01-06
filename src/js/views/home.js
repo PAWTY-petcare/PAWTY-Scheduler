@@ -6,7 +6,7 @@ import "../../styles/home.css";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 import { videoJS } from "../store/video.js";
-import Bl from "../../video/BLogovid.webm"
+
 
 export const Home = () => {
 
@@ -16,13 +16,12 @@ export const Home = () => {
 	
 	
 	<section className="bambi-home"> 
-	<video width="500rem" height="500rem"
+<video width="500rem" height="500rem"
 	autoplay muted controls
-	data-setup="{}"
 	title="BambiLeeLogoVid">
-		<source src={BLogovid} type="video/mpeg" />
-		
-    </video>
+	
+		 </video> 
+ 
 	
 	
 	
