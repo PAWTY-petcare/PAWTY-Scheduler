@@ -17,24 +17,26 @@
 @keyframes growAndDisappear {
   0% {
       transform: translateY(75vh) scale(0);
-      opacity: 0.3;
+      opacity: 0.15;
   }
   50% {
       transform: translateY(50vh) scale(.5);
-      opacity: 0.9;
+      opacity: 0.19;
   }
   100% {
-      transform: translateY(-135vh) scale(1);
-      opacity: 0.7;
+      transform: translateY(-40vh) scale(1);
+      opacity: .02;
   }
 }
 
-
+.vjs-tech{
+  height:10rem;
+  width:10rem;
+}
 
 
 .bambi-home{
-  display: flex;
-  max-width: 550px;
+  display:grid;
   max-height: 300px ;
   text-align: center;
 }
@@ -82,7 +84,7 @@ li{
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.04),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 4px rgb(95, 95, 95);
    animation: growAndDisappear 11s infinite;
-   opacity: 65%;
+   opacity: 80%;
  }
 
 .bottom-right{
@@ -94,7 +96,7 @@ li{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 9s infinite;
-  opacity: 64%;
+  opacity: 80%;
 }
 .top-right{
   padding-right: 2%;
@@ -105,7 +107,7 @@ li{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 8s infinite;
-  opacity: 64%;
+  opacity: 80%;
 }
 .bottom-left{
   padding-left: 3%;
@@ -116,7 +118,7 @@ li{
   background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
  animation: growAndDisappear 6s infinite;
- opacity: 64%;
+ opacity: 80%;
 }
 
 .top-left-a{
@@ -128,7 +130,7 @@ li{
   background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 12s infinite;
-  opacity: 64%;
+  opacity: 80%;
 }
   
 .bottom-right-a{
@@ -140,7 +142,7 @@ li{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
   animation: growAndDisappear 11.5s infinite;
-  opacity: 64%;
+  opacity: 80%;
 }
  
 
@@ -153,7 +155,7 @@ li{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
  animation: growAndDisappear 6.5s infinite;
- opacity: 64%;
+ opacity: 80%;
 }
    
 
@@ -166,7 +168,7 @@ li{
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
    animation: growAndDisappear 7.5s infinite;
-   opacity: 64%;
+   opacity: 80%;
  }
  .top-left-b{
   padding-left: 1%;
@@ -177,7 +179,7 @@ li{
   background: linear-gradient(280deg,  rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
   box-shadow: 1px -3px 4px rgb(95, 95, 95);
   animation: growAndDisappear 12s infinite;
-  opacity: 64%;
+  opacity: 80%;
 }
   
 .bottom-right-b{
@@ -189,7 +191,7 @@ li{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
   animation: growAndDisappear 2.5s infinite;
-  opacity: 64%;
+  opacity: 80%;
 }
  
 
@@ -202,7 +204,7 @@ li{
   background: linear-gradient(280deg, rgba(255, 255, 255, 0.751), rgba(152, 204, 204, 0.113));
   box-shadow: 1px -3px 6px rgb(95, 95, 95);
  animation: growAndDisappear 6.5s infinite;
- opacity: 64%;
+ opacity: 80%;
 }
    
 
@@ -215,7 +217,7 @@ li{
    background: linear-gradient(280deg, rgba(152, 204, 204, 0.113),  rgba(255, 255, 255, 0.751));
    box-shadow: 1px -3px 6px rgb(95, 95, 95);
    animation: growAndDisappear 5.5s infinite;
-   opacity: 64%;
+   opacity: 80%;
  }
  
 
