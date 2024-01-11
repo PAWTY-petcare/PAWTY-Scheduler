@@ -29,7 +29,7 @@
 body{
   display: block;
   padding-bottom: 200px;
-  background-color: rgba(120, 120, 120, 0.901);
+  background-color: rgba(215, 241, 240, 0.901);
   min-width: 550px;
 
 }
@@ -66,6 +66,8 @@ body{
   text-decoration: underline;
 }
 .offcanvas{
+  transition:ease-in-out;
+  transition-duration: 1.2s ;
   text-align: center;
   display: inline-table;
   flex-direction: row;
@@ -74,17 +76,19 @@ body{
   width: 8rem;
   height:8rem;
   background-color: rgba(229, 255, 253, 0.589);
-  box-shadow: 0px 20px 55px rgba(199, 237, 255, 0.78);
+  box-shadow: -2.4px 4px 9.6px rgba(230, 249, 255, 0.928);
   border-bottom-style: inset;
- border-bottom-width: .9rem;
+ border-bottom-width: .4rem;
  border-bottom-color:  rgba(186, 227, 227, 0.489);
  border-left-style: inset;
- border-left-width: .3rem;
+ border-left-width: .18rem;
  border-left-color:  rgba(192, 227, 227, 0.202);
  border-right-style: inset;
- border-right-width: .2rem;
- border-right-color:rgba(186, 222, 222, 0.339);
+ border-right-width: .07rem;
+ border-right-color:rgba(213, 238, 238, 0.957);
  border-bottom-left-radius: 20%;
+ border-top-left-radius: 13%;
+ --bs-tertiary-bg: rgba(128, 128, 128, 0.078);
 
 }
 .nav-container{
@@ -95,8 +99,8 @@ body{
   flex-shrink: 0;
   width: 8rem;
   height:10rem;
-  background-color: rgba(229, 255, 253, 0.589);
-  box-shadow: 0px 20px 55px rgba(199, 237, 255, 0.78);
+  background-color: rgba(244, 255, 254, 0.769);
+  box-shadow: 1.9px 5px 4px rgb(148, 148, 148);
   border-bottom-style: inset;
  border-bottom-width: .9rem;
  border-bottom-color:  rgba(186, 227, 227, 0.489);
