@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/navbar.css";
-import BLogo from "../../image/BLogo.png";
-// import BLogovid from "../../image/BLogovid.mp4";
-import { PolymerElement,html} from "@polymer/polymer";
-import "@thuoe/mp4-video-player";
 
 export const Navbar = () => {
 	

@@ -1,7 +1,9 @@
+
 import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { useNavigate } from "react-router-dom";
-import BPrint from "../../image/BPrint.png";
+import BPrint from "../../image/BPrint.png"
+
 import "../../styles/home.css";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
