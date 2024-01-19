@@ -27,10 +27,8 @@
 }
 
 body{
-  display: block;
-  padding-bottom: 200px;
-  background-color: rgba(215, 241, 240, 0.901);
-  min-width: 550px;
+
+  background-color: rgba(137, 216, 212, 0.901);
 
 }
 .btn{
@@ -95,8 +93,7 @@ body{
   text-align: center;
   display: inline-table;
   flex-direction: row;
-  margin-left: 43%;
-  flex-shrink: 0;
+  margin-left: 40%;
   width: 8rem;
   height:10rem;
   background-color: rgba(244, 255, 254, 0.769);

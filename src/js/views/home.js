@@ -26,7 +26,7 @@ export const Home = () => {
 		Home Care<br /></h1>
     </div>
     <div className="carousel-item">
-	<h2>Scope of Service</h2>
+	<h1>Scope of Service</h1>
 	<li>For contract Commercial property routined cleaning and maintenence</li>
 	<li>Airbnb/Short term rental property routined cleaning and maintenence</li>
 	<li>Residential property cleaning and maintenence </li>
