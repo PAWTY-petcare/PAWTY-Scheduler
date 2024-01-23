@@ -1,7 +1,8 @@
 .Business-Card{
     width: 450px;
-    align-items: center;
-    display:flex;
+
+    justify-content: center;
+    
 }
 .Bcontact{
     
@@ -12,4 +13,6 @@
     border-color: rgba(191, 253, 253, 0.263) rgba(255, 255, 255, 0.397);
     box-shadow: inset 1px 0px 4px rgb(199, 251, 250);
     justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
 }

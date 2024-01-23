@@ -1,4 +1,15 @@
-
+@media screen and (max-width: 500px) {
+	.navigator{
+    max-width: fit-content;
+  }
+  body{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin-left: 40%;
+  }
+}
 
 
 
@@ -26,16 +37,61 @@
   }
 }
 
+@keyframes zoomAndFade {
+  0% {
+      transform: scale(10);
+      opacity: 9;
+  }
+  50% {
+      transform: scale(5);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1.5);
+      opacity: 0;
+  }
+}
+.navbar-toggler{
+  display: grid;
+}
+.nav-brand{
+  padding-bottom: 10%;
+}
+.navigator{
+  display: flex;
+  background-attachment: fixed;
+  background-size: inherit;
+  background-size: cover;
+  max-height: 250px;
+  min-width: 350px;
+  max-width: 884px;
+  background-color: rgba(49, 183, 183, 0.225);
+  border-bottom-style:groove;
+  border-bottom-width: 3px;
+}
+.Blogif{
+  padding-top: 2%;
+  width: 50px; /* Set your preferred width */
+  height: 55px; /* Set your preferred height */
+  overflow: hidden;
+  position: center;
+  animation: zoomAndFade 7s forwards;
+  border-radius: 80%;
+}
 body{
-
-  background-color: rgba(137, 216, 212, 0.901);
-
+  
+  background-color: rgba(102, 116, 115, 0.529);
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin-left: 35%;
 }
 .btn{
   border-style: hidden;
   font-weight: lighter;
   color: rgb(72, 91, 97);
-  background-color: rgba(229, 255, 253, 0.312);
+  background-color: rgba(229, 255, 253, 0.911);
   --bs-tertiary-bg: rgba(128, 128, 128, 0.32);
 }
 .nav-pills{
@@ -45,19 +101,21 @@ body{
 
  
 .BleeLogo{
+ 
   width: 5rem;
-  height: 7rem;
-  margin-top: 10%;
-  justify-content: center;
+  height: 10rem;
+  margin-left: 20% ;
+ 
+  
 }
 
-.BLogovid{
-  height: 13rem;
-  width:8rem;
 
-}
+
+
 
 .menu-tog{
+ 
+  
   animation: opacityLoop 4s infinite;
   color:  rgba(0, 0, 0, 0.352);
   font-size: x-small;
@@ -69,7 +127,7 @@ body{
   text-align: center;
   display: inline-table;
   flex-direction: row;
-  margin-left: 50%;
+  margin-left: 43.7%;
   flex-shrink: 0;
   width: 8rem;
   height:8rem;
@@ -82,22 +140,24 @@ body{
  border-left-width: .18rem;
  border-left-color:  rgba(192, 227, 227, 0.202);
  border-right-style: inset;
- border-right-width: .07rem;
- border-right-color:rgba(213, 238, 238, 0.957);
+ border-right-width: .18rem;
+ border-right-color:rgba(192, 227, 227, 0.202);
  border-bottom-left-radius: 20%;
- border-top-left-radius: 13%;
+ border-bottom-right-radius: 20%;
  --bs-tertiary-bg: rgba(128, 128, 128, 0.078);
 
 }
 .nav-container{
   text-align: center;
-  display: inline-table;
-  flex-direction: row;
-  margin-left: 40%;
+  display: flex;
+  margin-left: 42%;
   width: 8rem;
-  height:10rem;
-  background-color: rgba(244, 255, 254, 0.769);
+  height:12rem;
+  background-color: rgb(244, 255, 254);
   box-shadow: 1.9px 5px 4px rgb(148, 148, 148);
+  border-top-style: ridge ;
+  border-top-color: rgba(186, 222, 222, 0.631); ;
+  border-left-width: .7rem;
   border-bottom-style: inset;
  border-bottom-width: .9rem;
  border-bottom-color:  rgba(186, 227, 227, 0.489);
@@ -107,7 +167,7 @@ body{
  border-right-style: inset;
  border-right-width: .2rem;
  border-right-color:rgba(186, 222, 222, 0.339);
- border-radius: 80%;
+ border-radius: 90%;
  animation: gradientLoop linear 2s infinite;
 
 }

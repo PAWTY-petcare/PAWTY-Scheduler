@@ -2,24 +2,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/navbar.css";
 import BLogo from "../../image/BLogo.png";
+import BPrint from "../../image/BPrint.png";
+import blogif from "../../image/blogif.gif";
 
 export const Navbar = () => {
 	
 	return (
-
-  <nav className="nav-container">
+<div className="navigator">
+ <nav className="nav-container">
+    {/* <div className="nav-brand"> */}
+      <img className="Blogif" src={blogif} alt="GIF" />
       <img className="BleeLogo" src={BLogo} alt="bleelogo"></img>
-      <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span className="menu-tog">MENU</span>
-      </button>
-    <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div className="offcanvas-header">
+        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span className="menu-tog">MENU</span>
+        </button>
+    {/* </div> */}
+       <div className="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasNavbarLabel"></h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-     <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
+      <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
       <li>
-        <a href="#" className="nav-link py-3 border-bottom rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Home">
+        <a href="#" className="nav-link py-3 border-bottom rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="center" aria-label="Home">
 	         <Link to="/">
 	         <button className="btn btn-tertiary d-inline-flex align-items-center" type="button">
             Home
@@ -47,6 +52,7 @@ export const Navbar = () => {
   
    </div>
 </nav>
+</div>
 
 	
 	);
