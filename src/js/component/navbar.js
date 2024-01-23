@@ -11,7 +11,7 @@ export const Navbar = () => {
 <div className="navigator">
  <nav className="nav-container">
     {/* <div className="nav-brand"> */}
-      <img className="Blogif" src={blogif} alt="GIF" />
+      {/* <img className="Blogif" src={blogif} alt="GIF" /> */}
       <img className="BleeLogo" src={BLogo} alt="bleelogo"></img>
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <span className="menu-tog">MENU</span>

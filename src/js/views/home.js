@@ -29,10 +29,12 @@ export const Home = () => {
     </div>
   <div className="carousel-item">
 	<h1>Scope of Service</h1>
-	<li>For contract Commercial property routined cleaning and maintenence</li>
-	<li>Airbnb/Short term rental property routined cleaning and maintenence</li>
-	<li>Residential property cleaning and maintenence </li>
-	<li>Organizational planning and implimentation</li>
+	  <ul classname="ul-m">
+		<li>For contract Commercial property routined cleaning and maintenence</li>
+		<li>Airbnb/Short term rental property routined cleaning and maintenence</li>
+		<li>Residential property cleaning and maintenence </li>
+		<li>Organizational planning and implimentation</li>
+	  </ul>
   </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
