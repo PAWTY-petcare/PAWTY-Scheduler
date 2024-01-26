@@ -3,7 +3,7 @@ import { Context } from "../store/appContext";
 import { useNavigate } from "react-router-dom";
 import "../../styles/login.css";
 
-import IMG_1229 from "../../image/IMG_1229.jpg";
+import BLContact from "../../image/BLContact.png";
 
 
 
@@ -13,6 +13,6 @@ export const Login = () => (
     
 
     <div classname="Business-Card">
-       <img className="Bcontact" src={IMG_1229} alt="bleecontact" />
+       <img className="Bcontact" src={BLContact} alt="bleecontact" />
     </div>
 );

@@ -6,6 +6,10 @@ import { useNavigate } from "react-router-dom";
 import BPrint from "../../image/BPrint.png"
 import "../../styles/home.css";
 import BLogo from "../../image/BLogo.png";
+import Restaurant_1 from "../../image/Restaurant_1.png";
+import Store_1 from "../../image/Store_1.png";
+import Airbnb_1 from "../../image/Airbnb_1.png";
+import Airbnb_2 from "../../image/Airbnb_2.png";
 
 
 
@@ -30,10 +34,15 @@ export const Home = () => {
   <div className="carousel-item">
 	<h1>Scope of Service</h1>
 	  <ul classname="ul-m">
-		<li>For contract Commercial property routined cleaning and maintenence</li>
-		<li>Airbnb/Short term rental property routined cleaning and maintenence</li>
-		<li>Residential property cleaning and maintenence </li>
-		<li>Organizational planning and implimentation</li>
+		
+		<img className="Rest1" src={Restaurant_1} alt="Rest_1" />
+		<img className="Store1" src={Store_1} alt="Store_1" />
+		<ul>For contract commercial property routined cleaning and maintenence</ul>
+		<img className="Air1" src={Airbnb_1} alt="Air_1" />
+		<img className="Air2" src={Airbnb_2} alt="Air_2" />
+        <ul>Airbnb/Short term rental property routined cleaning and maintenence</ul>
+		<ul>Residential property cleaning and maintenence </ul>
+		<ul>Organizational planning and implimentation</ul>
 	  </ul>
   </div>
   </div>
