@@ -74,39 +74,62 @@
   
   margin-top: 5%;
   display: flex;
-  min-height: 300px;
-  max-height: 600px;
+  height: fit-content;
   min-width: 350px;
   max-width: 860px;
 }
+.Org1{
+  width:240px;
+  height:260px;
+
+  border-style: solid;
+  border-color: rgb(190, 190, 190);
+}
+.Org2{
+  width:260px;
+  height:200px;
+  border-style: solid;
+  border-radius: 80%;
+  border-color: rgb(190, 190, 190);
+}
 .Rest1{
   border-style: solid;
-  border-right-width: 1.5px;
-  border-color: whitesmoke;
-  height:200px;
-  width: 150px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-color: rgb(193, 193, 193);
+  height:300px;
+  width: 230px;
 }
 .Store1{
   border-style: solid;
-  border-left-width: 1.5px;
-  border-color: whitesmoke;
+  border-color: rgb(181, 181, 181);
   width: 300px;
   height:200px;
 }
 .Air1{
-  width:240px;
+  width:180px;
   height:100px;
 
   border-style: solid;
-  border-right-width: 1.5px;
-  border-color: whitesmoke;
+  border-color: rgb(179, 179, 179);
 }
 .Air2{
-  width:260px;
+  width:320px;
   height:200px;
   border-style: solid;
-  border-left-width: 1.5px;
-  border-color: whitesmoke;
+  border-radius: 80%;
+  border-color: rgb(193, 193, 193);
+}
+.Home1{
+  width:320px;
+  height:200px;
+
+  border-style: solid;
+  border-color: rgb(191, 187, 187);
+  border-style: solid;
+  
 }
 .blogovid{
   height: 200px;
@@ -150,11 +173,13 @@ h2{
 }
 ul{
   text-align: center;
-  font-size: 16.7px;
+  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 1050;
   font-stretch: expanded;
+  border-style: groove;
   color: rgba(36, 36, 36, 0.855);
+  background-color: rgba(240, 248, 255, 0.227);
   
 
 }

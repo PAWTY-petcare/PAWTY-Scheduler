@@ -10,6 +10,9 @@ import Restaurant_1 from "../../image/Restaurant_1.png";
 import Store_1 from "../../image/Store_1.png";
 import Airbnb_1 from "../../image/Airbnb_1.png";
 import Airbnb_2 from "../../image/Airbnb_2.png";
+import Home_1 from "../../image/Home_1.png";
+import Organize_1 from "../../image/Organize_1.png";
+import Organize_2 from "../../image/Organize_2.png";
 
 
 
@@ -34,6 +37,8 @@ export const Home = () => {
   <div className="carousel-item">
 	<h1>Scope of Service</h1>
 	  <ul classname="ul-m">
+		<br />
+		<br />
 		
 		<img className="Rest1" src={Restaurant_1} alt="Rest_1" />
 		<img className="Store1" src={Store_1} alt="Store_1" />
@@ -41,7 +46,10 @@ export const Home = () => {
 		<img className="Air1" src={Airbnb_1} alt="Air_1" />
 		<img className="Air2" src={Airbnb_2} alt="Air_2" />
         <ul>Airbnb/Short term rental property routined cleaning and maintenence</ul>
+		<img className="Home1" src={Home_1} alt="Ho_1" />
 		<ul>Residential property cleaning and maintenence </ul>
+		<img className="Org1" src={Organize_1} alt="Org_1" />
+		<img className="Org2" src={Organize_2} alt="org_2" />
 		<ul>Organizational planning and implimentation</ul>
 	  </ul>
   </div>
