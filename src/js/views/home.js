@@ -36,22 +36,22 @@ export const Home = () => {
     </div>
   <div className="carousel-item">
 	<h1>Scope of Service</h1>
-	  <ul classname="ul-m">
+	  <h2 classname="ul-m">
 		<br />
-		<br />
+		<br />   
 		
 		<img className="Rest1" src={Restaurant_1} alt="Rest_1" />
 		<img className="Store1" src={Store_1} alt="Store_1" />
-		<ul>For contract commercial property routined cleaning and maintenence</ul>
+		<h2>For contract commercial property routined cleaning and maintenence</h2>
 		<img className="Air1" src={Airbnb_1} alt="Air_1" />
 		<img className="Air2" src={Airbnb_2} alt="Air_2" />
-        <ul>Airbnb/Short term rental property routined cleaning and maintenence</ul>
+        <h2>Airbnb/Short term rental property routined cleaning and maintenence</h2>
 		<img className="Home1" src={Home_1} alt="Ho_1" />
-		<ul>Residential property cleaning and maintenence </ul>
+		<h2>Residential property cleaning and maintenence </h2>
 		<img className="Org1" src={Organize_1} alt="Org_1" />
 		<img className="Org2" src={Organize_2} alt="org_2" />
-		<ul>Organizational planning and implimentation</ul>
-	  </ul>
+		<h2>Organizational planning and implimentation</h2>
+	  </h2>
   </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

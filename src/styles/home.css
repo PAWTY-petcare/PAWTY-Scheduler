@@ -162,16 +162,8 @@ h1{
   border-color: rgba(191, 253, 253, 0.404) rgba(255, 255, 255, 0.58);
   box-shadow: inset 1px 0px 4px rgb(116, 150, 150);
 }
-h2{
-  font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 1050;
-  font-stretch: expanded;
-  color: rgba(255, 255, 255, 0.855);
-  text-decoration: underline;
 
-}
-ul{
+     h2{
   text-align: center;
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
