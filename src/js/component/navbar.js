@@ -4,18 +4,25 @@ import "../../styles/navbar.css";
 import BLogo from "../../image/BLogo.png";
 import BPrint from "../../image/BPrint.png";
 import blogif from "../../image/blogif.gif";
+import Podium from "../../image/Podium.png"
+import Headliner from "../../image/Headliner.png";
 
 export const Navbar = () => {
 	
 	return (
 <div className="navigator">
  <nav className="nav-container">
-    {/* <div className="nav-brand"> */}
-      {/* <img className="Blogif" src={blogif} alt="GIF" /> */}
-      <img className="BleeLogo" src={BLogo} alt="bleelogo"></img>
-        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span className="menu-tog">MENU</span>
-        </button>
+ 
+      <img className="Podium" src={Podium} alt="podium"></img>
+          <div className="grid-item">
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img className="BLogo" src={BLogo} />
+   </button>     
+      </div>
+      
+       
+          
+       
     {/* </div> */}
        <div className="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div className="offcanvas-header">

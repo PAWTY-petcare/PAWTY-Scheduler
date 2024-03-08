@@ -1,16 +1,16 @@
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 200px) {
 	.navigator{
-    max-width: fit-content;
+    max-width: 1200px;
   }
   body{
-    max-width: 500px;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     align-content: space-around;
     margin-left: 40%;
   }
 }
-
+ */
 
 
 
@@ -51,43 +51,31 @@
       opacity: 0;
   }
 }
-.navbar-toggler{
-  /* display: grid; */
-}
+
 .nav-brand{
   padding-bottom: 10%;
 }
 .navigator{
-  display: flex;
+  display:block;
+  min-width: 780px;
+  max-width: 1500px;
   background-attachment: fixed;
   background-size: inherit;
   background-size: cover;
-  max-height: 250px;
-  min-width: 350px;
-  max-width: 884px;
-  background-color: rgba(49, 183, 183, 0.225);
+  background-color: color-mix(in hsl shorter hue, rgb(85, 85, 85) 70%, rgb(42, 49, 51) 30%) ;
   border-bottom-style:groove;
   border-bottom-width: 3px;
   border-bottom-color: rgba(0, 0, 0, 0.044);
   box-shadow: 0px -4px 14.6px rgba(70, 74, 75, 0.928);
 }
-.Blogif{
-  padding-top: 2%;
-  width: 50px; /* Set your preferred width */
-  height: 55px; /* Set your preferred height */
-  overflow: hidden;
-  position: center;
-  animation: zoomAndFade 7s forwards;
-  border-radius: 80%;
-}
+
+
 body{
   
-  background-color: rgba(102, 116, 115, 0.529);
-  max-width: 400px;
-  display: flex;
-  justify-content: center;
+  background-color: rgb(182, 185, 185);
+
   align-content: space-around;
-  margin-left: 35%;
+
 }
 .btn{
   border-style: hidden;
@@ -101,20 +89,30 @@ body{
   flex-direction: column;
 }
 
- 
-.BleeLogo{
- 
-  width: 5rem;
-  height: 10rem;
-  margin-left: 10% ;
-  margin-top: 3%;
+.grid-item--4{
+  justify-items: center;
+}
+
+.Podium{
+  align-self: center;
+  width: 166px;
+  height: 140px;
+  border-radius: 30%;
+  border-style: groove;
+  border-width: 4px;
+  border-color: rgba(0, 0, 0, 0.812);
+  
  
   
 }
 
 
+.BLogo{
+margin-right: 10%;
+ height: 85px;
 
 
+}
 
 .menu-tog{
  
@@ -151,30 +149,7 @@ body{
  --bs-tertiary-bg: rgba(128, 128, 128, 0.078);
 
 }
-.nav-container{
-  text-align: center;
-  /* display: flex; */
-  margin-left: 42%;
-  width: 8rem;
-  height:12rem;
-  background-color: rgb(244, 255, 254);
-  box-shadow: 1.9px 5px 4px rgb(148, 148, 148);
-  border-top-style: ridge ;
-  border-top-color: rgba(186, 222, 222, 0.631); ;
-  border-left-width: .7rem;
-  border-bottom-style: inset;
- border-bottom-width: .9rem;
- border-bottom-color:  rgba(186, 227, 227, 0.489);
- border-left-style: inset;
- border-left-width: .3rem;
- border-left-color:  rgba(192, 227, 227, 0.202);
- border-right-style: inset;
- border-right-width: .2rem;
- border-right-color:rgba(186, 222, 222, 0.339);
- border-radius: 90%;
- animation: gradientLoop linear 2s infinite;
 
-}
 
 .nav-link{
   display: block;

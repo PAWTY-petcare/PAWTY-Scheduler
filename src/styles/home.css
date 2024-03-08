@@ -1,32 +1,4 @@
-@media screen and (max-width: 500px) {
-	.container{
-    max-width: 380px;
-  }
-  .carousel-inner{
-  
-    margin-top: 20%;
-    display: flex;
-    min-height: 400px;
-    margin-left: 2.8%;
 
-    max-width: 295px;
-  }
-  .carousel-item{
-    text-align: center;
-    max-width: 295px;
-    
-  }
-  
-  .bambi-home{
-    display:flex;
-    max-width: 500px;
-    text-align: center;
-  }
-  h1{
-    font-size: 60px;
-  }
-
-}
 @keyframes growAnimation {
   0% {
       transform: scale(1);
@@ -38,6 +10,12 @@
       transform: scale(1);
   }
 }
+@keyframes opacityLoop{
+  0% { opacity: 1; }
+  25%{opacity: .5}
+  50% { opacity: .4; }
+  100% { opacity: .9; }
+}
 @keyframes growAndDisappear {
   0% {
       transform: translateY(75vh) scale(0);
@@ -48,22 +26,85 @@
       opacity: 0.59;
   }
   100% {
-      transform: translateY(-88vh) scale(1);
+      transform: translateY(-105vh) scale(1);
       opacity: .49;
   }
 }
-
-.container{
-  background-color: rgba(232, 232, 232, 0.85);
-  min-width: 350px;
-  max-width: 884px;
-  max-height: fit-content;
-  display: flex;
-  border-style: inset;
-  border-width: 5px;
-  border-color: rgba(191, 253, 253, 0.263) rgba(255, 255, 255, 0.397);
-  box-shadow: inset 1px 0px 4px rgba(38, 39, 39, 0.572);
+.date{
+  font-style: normal;
+  font-size: x-large;
+  color: white;
 }
+.grid{
+  position: relative;
+   height: 14702.3px; 
+   perspective-origin: 50% 1514px;
+   
+
+}
+.grid-item { 
+
+  width: 150px;
+  position: absolute; 
+  left: 40px; 
+  top: 15px;
+  margin-right: 5px;
+  
+}
+.grid-item--2 { 
+  position: absolute; 
+  left: 640px; 
+  top: 15px;
+ 
+ 
+}
+.grid-item--3{
+  position: absolute; 
+  left: 10px; 
+  top: 655px;
+}
+.grid-item--width2{
+justify-content: center;
+left: 30%;
+}
+
+  .grid-item--width2-2{
+  
+  left: 640px; 
+  top: 305px;
+  }
+.Podium{
+  width: 400px;
+ 
+  .container{
+  display: flex;
+  align-items: center;
+ }
+.App{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+}
+.Headliner{
+  margin-left: 25%;
+  height: 315px;
+  width: 600px;
+  margin-top:1%;
+  margin-bottom: 2%;
+ border-style: ridge;
+ border-width: 10px;
+ border-color: rgba(0, 0, 0, 0.822);
+  align-self: center;
+  box-shadow: 12px 10px 8.7px rgb(95, 95, 95);
+
+}
+.BLogo{
+  height: 419px;
+  animation: opacityLoop 3s infinite;
+}
+
 .carousel-indicators{
   width: 250px;
 }
@@ -148,26 +189,35 @@
   max-width: 884px;
   text-align: center;
 }
+.Banner{
+  width: 900px;
+  margin-left: 11%;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: rgba(0, 0, 0, 0.822);
+}
+.contactBut{
+  display:block;
+}
 h1{
 
  
-  font-size: 70px;
+  font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 1050;
   color: rgba(255, 255, 255, 0.855);
   background-color:rgb(173, 216, 230);
-  border-radius: 50%;
   border-style: inset;
-  border-width: 10px;
+  border-width: 5px;
   border-color: rgba(191, 253, 253, 0.404) rgba(255, 255, 255, 0.58);
   box-shadow: inset 1px 0px 4px rgb(116, 150, 150);
 }
 
-     h2{
+  h2{
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 1050;
+  font-weight: 1100;
   font-stretch: expanded;
   border-style: groove;
   color: rgba(36, 36, 36, 0.855);
@@ -184,7 +234,20 @@ h1{
   box-shadow: inset 1px 0px 4px rgb(136, 168, 168);
 }
 
+.btn-dark{
+  border-width: 3px;
+  border-style: ridge;
+  background-color: rgba(0, 0, 0, 0.208);
+  box-shadow: ivory;
+  justify-content: center;
+  margin-left: 17%;
+  margin-bottom: 2%;
 
+}
+.contactBut{
+  display: flex;
+  align-items: center;
+}
 .top-left{
    padding-left: 1%;
    width: 90px;
