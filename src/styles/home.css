@@ -26,7 +26,7 @@
       opacity: 0.59;
   }
   100% {
-      transform: translateY(-105vh) scale(1);
+      transform: translateY(-155vh) scale(1.2);
       opacity: .49;
   }
 }
@@ -73,6 +73,9 @@ left: 30%;
   left: 640px; 
   top: 305px;
   }
+.card{
+  margin-top: 2% ;
+}
 .Podium{
   width: 400px;
  
@@ -92,7 +95,7 @@ left: 30%;
   height: 315px;
   width: 600px;
   margin-top:1%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
  border-style: ridge;
  border-width: 10px;
  border-color: rgba(0, 0, 0, 0.822);
@@ -190,15 +193,13 @@ left: 30%;
   text-align: center;
 }
 .Banner{
-  width: 900px;
-  margin-left: 11%;
+  width: 800px;
+  margin-left: 14%;
   border-style: ridge;
   border-width: 10px;
   border-color: rgba(0, 0, 0, 0.822);
 }
-.contactBut{
-  display:block;
-}
+
 h1{
 
  
@@ -239,12 +240,11 @@ h1{
   border-style: ridge;
   background-color: rgba(0, 0, 0, 0.208);
   box-shadow: ivory;
-  justify-content: center;
-  margin-left: 17%;
   margin-bottom: 2%;
 
 }
 .contactBut{
+  margin-left: 44%;
   display: flex;
   align-items: center;
 }

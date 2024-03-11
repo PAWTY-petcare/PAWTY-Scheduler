@@ -57,7 +57,7 @@
 }
 .navigator{
   display:block;
-  min-width: 780px;
+  min-width: 900px;
   max-width: 1500px;
   background-attachment: fixed;
   background-size: inherit;
@@ -72,7 +72,7 @@
 
 body{
   
-  background-color: rgb(182, 185, 185);
+  background-color: rgb(234, 234, 234);
 
   align-content: space-around;
 
