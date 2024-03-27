@@ -74,7 +74,13 @@ left: 30%;
   top: 305px;
   }
 .card{
-  margin-top: 2% ;
+  margin-top: 4% ;
+  width: 245px;
+  height: 380px;
+  border-style: inset;
+  border-width: 10px;
+  border-radius: 5%;
+  border-color: black;
 }
 .Podium{
   width: 400px;
@@ -91,9 +97,9 @@ left: 30%;
 
 }
 .Headliner{
-  margin-left: 25%;
-  height: 315px;
-  width: 600px;
+  margin-left: 18%;
+  height: 415px;
+  width: 700px;
   margin-top:1%;
   margin-bottom: 4%;
  border-style: ridge;
@@ -193,8 +199,8 @@ left: 30%;
   text-align: center;
 }
 .Banner{
-  width: 800px;
-  margin-left: 14%;
+  width: 900px;
+  margin-left: 10%;
   border-style: ridge;
   border-width: 10px;
   border-color: rgba(0, 0, 0, 0.822);
@@ -244,7 +250,7 @@ h1{
 
 }
 .contactBut{
-  margin-left: 44%;
+  margin-left: 42%;
   display: flex;
   align-items: center;
 }

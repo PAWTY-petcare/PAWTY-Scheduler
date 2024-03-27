@@ -1,5 +1,6 @@
 /* @media screen and (max-width: 200px) {
 	.navigator{
+    min-width: 800px;
     max-width: 1200px;
   }
   body{
@@ -56,9 +57,7 @@
   padding-bottom: 10%;
 }
 .navigator{
-  display:block;
-  min-width: 900px;
-  max-width: 1500px;
+  width: 1357px;
   background-attachment: fixed;
   background-size: inherit;
   background-size: cover;
@@ -72,7 +71,7 @@
 
 body{
   
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(138, 137, 137);
 
   align-content: space-around;
 

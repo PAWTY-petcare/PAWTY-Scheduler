@@ -76,7 +76,7 @@ export const Home = () => {
 
 	<div className="bambi-home"> 
        <img className="bottom-left-a" src={BPrint} alt="bambiprint" />
-      <img className="top-left" src={BPrint} alt="bambiprint" /> */}
+      <img className="top-left" src={BPrint} alt="bambiprint" /> 
 	  <img className="top-left-a" src={BPrint} alt="bambiprint" />
 	  <img className="bottom-right" src={BPrint} alt="bambiprint" />
 	  <img className="top-right" src={BPrint} alt="bambiprint" />
