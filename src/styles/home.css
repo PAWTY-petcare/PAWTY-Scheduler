@@ -18,15 +18,15 @@
 }
 @keyframes growAndDisappear {
   0% {
-      transform: translateY(75vh) scale(0);
+      transform: translateY(50vh) scale(0);
       opacity: 0.65;
   }
   50% {
-      transform: translateY(50vh) scale(.5);
+      transform: translateY(75vh) scale(.5);
       opacity: 0.59;
   }
   100% {
-      transform: translateY(-155vh) scale(1.2);
+      transform: translateY(-70vh) scale(1.2);
       opacity: .49;
   }
 }
@@ -42,66 +42,49 @@
    
 
 }
-.grid-item { 
-
-  width: 150px;
-  position: absolute; 
-  left: 40px; 
-  top: 15px;
-  margin-right: 5px;
+.card-img-top{
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-style: ridge;
+  border-bottom-color: black;
+}
+.card-container{
+  display: flex;
   
 }
-.grid-item--2 { 
-  position: absolute; 
-  left: 640px; 
-  top: 15px;
- 
- 
-}
-.grid-item--3{
-  position: absolute; 
-  left: 10px; 
-  top: 655px;
-}
-.grid-item--width2{
-justify-content: center;
-left: 30%;
-}
-
-  .grid-item--width2-2{
-  
-  left: 640px; 
-  top: 305px;
-  }
 .card{
   margin-top: 4% ;
-  width: 245px;
-  height: 380px;
-  border-style: inset;
-  border-width: 10px;
+  width: 110px;
+  height: 300px;
+  border-style: ridge;
+  border-width: 3px;
   border-radius: 5%;
   border-color: black;
+  background-color: rgba(0, 0, 0, 0.679);
 }
 .Podium{
   width: 400px;
- 
+}
   .container{
   display: flex;
   align-items: center;
  }
 .App{
-  display: flex;
-  justify-content: center;
+
+  align-items: center;
+    width: 450px;
+    min-height: 500px;
+    border-left: 10px solid rgba(255, 214, 214, 0.797);
+    border-right: 10px solid rgba(255, 214, 214, 0.797);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset;
  
 }
 
-}
+
 .Headliner{
-  margin-left: 18%;
-  height: 415px;
-  width: 700px;
-  margin-top:1%;
-  margin-bottom: 4%;
+ width: 450px;
  border-style: ridge;
  border-width: 10px;
  border-color: rgba(0, 0, 0, 0.822);
@@ -109,25 +92,19 @@ left: 30%;
   box-shadow: 12px 10px 8.7px rgb(95, 95, 95);
 
 }
+.card-title{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-style: inset;
+  border-width: 5px;
+
+}
 .BLogo{
   height: 419px;
   animation: opacityLoop 3s infinite;
 }
 
-.carousel-indicators{
-  width: 250px;
-}
-.carousel-control-next-icon{
-  margin-left: 20%;
-}
-.carousel-inner{
-  
-  margin-top: 5%;
-  display: flex;
-  height: fit-content;
-  min-width: 350px;
-  max-width: 860px;
-}
+
 .Org1{
   width:240px;
   height:260px;
@@ -181,31 +158,29 @@ left: 30%;
   border-style: solid;
   
 }
-.blogovid{
-  height: 200px;
-  width: 100px;
-}
-.carousel-item{
-  text-align: center;
-  min-width: 350px;
-  max-width: 884px;
-  
-}
+
 
 .bambi-home{
-  display:flex;
+  position: fixed;
+  bottom:0;
+  display:inline-flex;
   min-width: 350px;
   max-width: 884px;
   text-align: center;
 }
 .Banner{
-  width: 900px;
-  margin-left: 10%;
+  width: 450px;
+  border-radius: 9%;
   border-style: ridge;
-  border-width: 10px;
-  border-color: rgba(0, 0, 0, 0.822);
+  border-width: 12px;
+  border-color: black;
 }
-
+.scope-of-service{
+  background-color: rgb(75, 75, 75);
+  border-style: inset;
+  border-radius: 9%;
+  border-width: 1px;
+}
 h1{
 
  

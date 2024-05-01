@@ -14,10 +14,10 @@ export const Navbar = () => {
  <nav className="nav-container">
  
       <img className="Podium" src={Podium} alt="podium"></img>
-          <div className="grid-item">
+       <div className="menu">
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <img className="BLogo" src={BLogo} />
-   </button>     
+          </button>     
       </div>
       
        

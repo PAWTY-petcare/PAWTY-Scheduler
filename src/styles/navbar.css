@@ -1,55 +1,12 @@
-/* @media screen and (max-width: 200px) {
-	.navigator{
-    min-width: 800px;
-    max-width: 1200px;
-  }
-  body{
-    max-width: 200px;
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    margin-left: 40%;
-  }
-}
- */
-
-
-
-
-
-@keyframes opacityLoop{
-  0% { opacity: 1; }
-  25%{opacity: .5}
-  50% { opacity: .4; }
-  100% { opacity: .9; }
-};
-
-
-
-@keyframes gradientLoop {
+@keyframes gradient-loop {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
-  }
-}
-
-@keyframes zoomAndFade {
-  0% {
-      transform: scale(10);
-      opacity: 9;
-  }
-  50% {
-      transform: scale(5);
-      opacity: 1;
-  }
-  100% {
-      transform: scale(1.5);
-      opacity: 0;
+    background-position: 0% 50%;
   }
 }
 
@@ -57,23 +14,28 @@
   padding-bottom: 10%;
 }
 .navigator{
-  width: 1357px;
-  background-attachment: fixed;
-  background-size: inherit;
-  background-size: cover;
-  background-color: color-mix(in hsl shorter hue, rgb(85, 85, 85) 70%, rgb(42, 49, 51) 30%) ;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  padding: 10px 20px;
+  z-index: 50;
+
+  background-color: color-mix(in hsl shorter hue, rgba(85, 85, 85, 0.107) 70%, rgba(42, 49, 51, 0.089) 30%) ;
   border-bottom-style:groove;
   border-bottom-width: 3px;
   border-bottom-color: rgba(0, 0, 0, 0.044);
   box-shadow: 0px -4px 14.6px rgba(70, 74, 75, 0.928);
+  
 }
 
 
 body{
   
-  background-color: rgb(138, 137, 137);
-
-  align-content: space-around;
+  background: linear-gradient(45deg, #def4ff, #080808, #ffffff, #83aab1bf); /* Adjust colors */
+  background-size: 300% 300%;
+  animation: gradient-loop 15s linear infinite;
 
 }
 .btn{
@@ -88,11 +50,9 @@ body{
   flex-direction: column;
 }
 
-.grid-item--4{
-  justify-items: center;
-}
 
 .Podium{
+  opacity: 80%;
   align-self: center;
   width: 166px;
   height: 140px;
@@ -107,9 +67,17 @@ body{
 
 
 .BLogo{
-margin-right: 10%;
+ /* padding-left:21% ; */
  height: 85px;
 
+
+}
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 1.8%;
+  margin-left: 3.7%;
 
 }
 
