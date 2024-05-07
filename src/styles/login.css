@@ -1,31 +1,16 @@
-@media screen and (max-width: 500px) {
-	.Business-Card{
-    max-width: 380px;
-    display: flex;
 
-  }
-  .BLContact{
-
-    display: flex;
-    min-height: 400px;
-    max-width: 295px;
-  }
-}
 .Business-Card{
-    background-color: rgba(206, 206, 206, 0.478);
-    min-width: 350px;
-    max-width: 670px;
-  
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Bcontact{
-    min-width: 350px;
-    max-width: 670px;
-    display: flex;
-    border-style: inset;
-    border-width: 5px;
-    border-color: rgba(191, 253, 253, 0.263) rgba(255, 255, 255, 0.397);
-    box-shadow: inset 1px 0px 4px rgb(120, 121, 121);
-    justify-content: center;
-   
+  align-items: center;
+  width: 450px;
+  text-align: center;
+  box-shadow: inset;
+  background-color: rgb(255, 255, 255);
+  margin-left: 30%;
+  margin-top: 15%;
+
 }

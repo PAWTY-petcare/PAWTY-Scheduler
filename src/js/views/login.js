@@ -3,7 +3,7 @@ import { Context } from "../store/appContext";
 import { useNavigate } from "react-router-dom";
 import "../../styles/login.css";
 
-import BLContact from "../../image/BLContact.png";
+import BLContact from "../../image/BLContact.jpg";
 
 
 

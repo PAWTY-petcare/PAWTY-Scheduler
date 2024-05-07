@@ -18,9 +18,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 0%;
-  padding: 10px 20px;
-  z-index: 50;
+  width: 100%;
+  /* padding: 10px 20px; */
+
 
   background-color: color-mix(in hsl shorter hue, rgba(85, 85, 85, 0.107) 70%, rgba(42, 49, 51, 0.089) 30%) ;
   border-bottom-style:groove;
@@ -34,7 +34,7 @@
 body{
   
   background: linear-gradient(45deg, #def4ff, #080808, #ffffff, #83aab1bf); /* Adjust colors */
-  background-size: 300% 300%;
+  background-size: 400% 400%;
   animation: gradient-loop 15s linear infinite;
 
 }
@@ -53,9 +53,8 @@ body{
 
 .Podium{
   opacity: 80%;
-  align-self: center;
-  width: 166px;
-  height: 140px;
+  width: 86px;
+  height: 86px;
   border-radius: 30%;
   border-style: groove;
   border-width: 4px;
@@ -68,16 +67,19 @@ body{
 
 .BLogo{
  /* padding-left:21% ; */
- height: 85px;
+ height: 61px;
+ width: 50px;
+ 
+
 
 
 }
 .menu{
   position: fixed;
   top: 0;
-  left: 0;
-  margin-top: 1.8%;
-  margin-left: 3.7%;
+  left: 3;
+  /* margin-top: 2%; */
+
 
 }
 

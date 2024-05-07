@@ -53,9 +53,17 @@
   display: flex;
   
 }
+.About-box{
+  font-family: Garamond, serif;
+  border-style: ridge;
+  border-width: 6px;
+  background-color: rgba(255, 255, 255, 0.472);
+  border-color: rgba(0, 0, 0, 0.472);
+   align-self: center;
+   box-shadow: 2px 10px 8.7px rgb(95, 95, 95);
+}
 .card{
   margin-top: 4% ;
-  width: 220px;
   border-style: ridge;
   border-width: 3px;
   border-radius: 5%; 
@@ -89,6 +97,7 @@
  border-color: rgba(0, 0, 0, 0.472);
   align-self: center;
   box-shadow: 12px 10px 8.7px rgb(95, 95, 95);
+  margin-bottom: 5%;
 
 }
 .card-title{
@@ -167,6 +176,7 @@ h7{
 
 }
 .contactBut{
+ 
   justify-content: center;
   display: flex;
   align-items: center;

@@ -23,13 +23,19 @@ export const Home = () => {
    <div className="App">
      <img className="Headliner justify-content-center" src={Headliner} alt="headliner" />
 	
-	 <br />
+	
 	 <div className="contactBut d-inline justify-content-sm-center">
 	
 	 			<Link to="/schedule"><button className="btn-dark btn-lg"><i class="fa-solid fa-calendar-days"></i></button></Link>   
-        <button className="btn-success btn-lg"><i className="fa-solid fa-phone" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></i> </button>   
-        <button className="btn-primary btn-lg"> <i class="fa-solid fa-envelope"></i></button>
+        <Link to="/login"><button className="btn-success btn-lg"><i className="fa-solid fa-phone" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></i></button></Link>
+        <Link to="/login"><button className="btn-primary btn-lg"> <i class="fa-solid fa-envelope"></i></button></Link>
 </div>
+<div className="About-box">
+  <h6>Our mission at Bambi-Lee Cleaning & Home Care is to provide exceptional cleaning services, tailored to the unique 
+  needs of Airbnb hosts, small businesses, home owners, renters, and everyone in between! <br />
+  We are dedicated to delivering impeccable results, with keen atttention to detail, ensuring our clients' spaces are always pristine and inviting.
+  Our mission is not only to clean spaces, but to create environments that inspire the utmost comfort and confidence. </h6>
+  </div>
 <div className="scope-of-service">
 	<img className="Banner" src={banner} alt="banner" />
 
