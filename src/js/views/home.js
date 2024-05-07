@@ -47,7 +47,7 @@ export const Home = () => {
 	<img src={Commercial} class="card-img-top" alt="comm" />
       <div className="card-body">
         <h7 className="card-title">Commercial Property Cleaning and Maintenence</h7>
-        <Link to="/schedule"><a href="#" className="card-btn btn btn-primary btn-sm">Book your service!</a></Link>
+        <Link to="/schedule"><a href="#" className="card-btn btn btn-outline-dark btn-sm"><h6>Book your service!</h6></a></Link>
       </div>
     </div>
   </div>
@@ -56,7 +56,7 @@ export const Home = () => {
 	<img src={ShortProp} className="card-img-top" alt="short" />
       <div className="card-body">
         <h7 className="card-title">Airbnb & Short-term Rental Cleaning and Maintenence</h7>
-        <Link to="/schedule"><a href="#" className="card-btn btn btn-primary btn-sm">Convienient scheduling!</a></Link>
+        <Link to="/schedule"><a href="#" className="card-btn btn btn-outline-dark btn-sm"><h6>Convienient scheduling!</h6></a></Link>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@ export const Home = () => {
       <div className="card-body">
         <h7 className="card-title">Residential Property Cleaning and Maintenence </h7>
 
-        <Link to="/schedule"><a href="#" className="card-btn btn btn-primary btn-sm">Customize your cleaning!</a></Link>
+        <Link to="/schedule"><a href="#" className="card-btn btn btn-outline-dark btn-sm"><h6>Customize your cleaning!</h6></a></Link>
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ export const Home = () => {
 	<img src={Organized} className="card-img-top" alt="org" />
       <div className="card-body">
         <h7 className="card-title">Organizational Planning and Implimentation</h7>
-        <Link to="/schedule"><a href="#" className="card-btn btn btn-primary btn-sm">Get organized now!</a></Link>
+        <Link to="/schedule"><a href="#" className="card-btn btn btn-outline-dark btn-sm"><h6>Get organized now!</h6></a></Link>
       </div>
     </div>
   </div>
