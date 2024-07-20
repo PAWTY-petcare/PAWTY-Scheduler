@@ -31,11 +31,13 @@
   }
 }
 .Mission{
+  align-self: center;
+  width: 450px;
   margin-top: 4% ;
-  border-style: ridge;
-  border-width: 3px;
-  border-radius: 5%; 
-  border-color: rgba(11, 48, 39, 0.472);
+  border-radius: 7%;
+  border-style: groove;
+  border-width: 4px;
+  border-color: rgba(0, 0, 0, 0.812);
   background-color: rgba(188, 231, 235, 0.507);
   box-shadow: 0px 10px 11px rgba(208, 255, 252, 0.8);
   margin-bottom: 7%;
@@ -141,8 +143,14 @@
 }
 .Banner{
   width: 450px;
+  height: 102px;
   box-shadow: 12px 10px 8.7px rgb(95, 95, 95);
-  margin-top: 5%;
+  object-fit: cover;
+  object-position: 110% 57%;
+  border-style: groove;
+  border-width: 4px;
+  border-color: rgba(0, 0, 0, 0.812);
+
 
   /* border-radius: 9%;
   border-style: ridge;

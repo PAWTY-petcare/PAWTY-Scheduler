@@ -11,8 +11,8 @@ import Commercial from "../../image/Commercial.png";
 import Organized from "../../image/Organized.png";
 import Residential from "../../image/Residential.png";
 import ShortProp from "../../image/ShortProp.png";
-import banner from "../../image/banner.png";
-import Component1 from "../component/component1.js";
+import banner from "../../image/banner.gif";
+import Komorebi from "../../image/Komorebi.gif";
 
 
 
@@ -28,12 +28,13 @@ export const Home = () => {
 	
 	 <div className="contactBut d-inline justify-content-sm-center">
 	
-	 			<Link to="/schedule"><button className="btn-dark btn-lg"><i class="fa-solid fa-calendar-days"></i></button></Link>   
+	 			<Link to="/schedule"><button className="btn-dark btn-lg"><i className="fa-solid fa-calendar-days"></i></button></Link>   
         <Link to="/login"><button className="btn-success btn-lg"><i className="fa-solid fa-phone" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></i></button></Link>
-        <Link to="/login"><button className="btn-primary btn-lg"> <i class="fa-solid fa-envelope"></i></button></Link>
+        <Link to="/login"><button className="btn-primary btn-lg"> <i className="fa-solid fa-envelope"></i></button></Link>
 </div>
-<div className="Mission">
-<Component1 rootClassName="component1-root-class-name"></Component1>
+<div className="mission">
+<img className="Mission" src={Komorebi} alt="komorebi" />
+
 </div>
 <div className="scope-of-service">
 	<img className="Banner" src={banner} alt="banner" />
@@ -43,7 +44,7 @@ export const Home = () => {
 <div className="row row-cols-md-1 row-cols-md-2">
   <div className="col">
     <div className="card">
-	<img src={Commercial} class="card-img-top" alt="comm" />
+	<img src={Commercial} className="card-img-top" alt="comm" />
       <div className="card-body">
         <h7 className="card-title">Commercial Property Cleaning and Maintenence</h7>
         <Link to="/schedule"><a href="#" className="card-btn btn btn-outline-dark btn-sm"><h6>Book your service!</h6></a></Link>

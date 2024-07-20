@@ -2,11 +2,11 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import '../../styles/component1.css'
+import '../../styles/Mission.css'
 
-const Component1 = (props) => {
+const Mission = (props) => {
   return (
-    <div className={`component1-container ${props.rootClassName} `}>
+    <div className={`mission-container ${props.rootClassName} `}>
       <video
         src={props.videoSrc}
         loop
@@ -21,15 +21,15 @@ const Component1 = (props) => {
   )
 }
 
-Component1.defaultProps = {
-  videoSrc: "../../image/Komorebi.mp4",
+Mission.defaultProps = {
+  videoSrc: '../video/Komorebi.mp4',
   rootClassName: '',
 }
 
-Component1.propTypes = {
+Mission.propTypes = {
   videoSrc: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
-export default Component1
+export default Mission
 
