@@ -12,6 +12,8 @@ import Organized from "../../image/Organized.png";
 import Residential from "../../image/Residential.png";
 import ShortProp from "../../image/ShortProp.png";
 import banner from "../../image/banner.png";
+import Component1 from "../component/component1.js";
+
 
 
 
@@ -30,12 +32,9 @@ export const Home = () => {
         <Link to="/login"><button className="btn-success btn-lg"><i className="fa-solid fa-phone" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></i></button></Link>
         <Link to="/login"><button className="btn-primary btn-lg"> <i class="fa-solid fa-envelope"></i></button></Link>
 </div>
-<div className="About-box">
-  <h6>Our mission at Bambi-Lee Cleaning & Home Care is to provide exceptional cleaning services, tailored to the unique 
-  needs of Airbnb hosts, small businesses, home owners, renters, and everyone in between! <br />
-  We are dedicated to delivering impeccable results, with keen atttention to detail, ensuring our clients' spaces are always pristine and inviting.
-  Our mission is not only to clean spaces, but to create environments that inspire the utmost comfort and confidence. </h6>
-  </div>
+<div className="Mission">
+<Component1 rootClassName="component1-root-class-name"></Component1>
+</div>
 <div className="scope-of-service">
 	<img className="Banner" src={banner} alt="banner" />
 
@@ -105,3 +104,4 @@ export const Home = () => {
 </div>	
 	);
 };
+
