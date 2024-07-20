@@ -106,9 +106,9 @@
 
 .Headliner{
  width: 450px;
- /* border-style: ridge;
- border-width: 6px;
- border-color: rgba(0, 0, 0, 0.472); */
+ border-style: groove;
+  border-width: 4px;
+  border-color: rgba(0, 0, 0, 0.812);
   align-self: center;
   box-shadow: 12px 10px 8.7px rgb(95, 95, 95);
   margin-bottom: 5%;
