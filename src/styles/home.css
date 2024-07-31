@@ -59,6 +59,8 @@
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom-style: ridge;
+  height: 170px;
+  width: 230px;
   border-width: 3px;
   border-bottom-color: rgb(41, 161, 131, 0.472);
 }
@@ -80,10 +82,12 @@
   border-style: ridge;
   border-width: 3px;
   border-radius: 5%; 
+  width: 235px;
   border-color: rgba(11, 48, 39, 0.472);
   background-color: rgba(188, 231, 235, 0.507);
   box-shadow: 0px 10px 11px rgba(208, 255, 252, 0.8);
   margin-bottom: 7%;
+  margin-right: 4%;
 }
 .Podium{
   width: 400px;

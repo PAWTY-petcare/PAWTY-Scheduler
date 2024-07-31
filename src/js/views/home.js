@@ -7,10 +7,10 @@ import BPrint from "../../image/BPrint.png"
 import "../../styles/home.css";
 import BLogo from "../../image/BLogo.png";
 import Headliner from "../../image/Headliner.png";
-import Commercial from "../../image/Commercial.png";
-import Organized from "../../image/Organized.png";
-import Residential from "../../image/Residential.png";
-import ShortProp from "../../image/ShortProp.png";
+import Commercial from "../../image/Commercial.gif";
+import Organized from "../../image/Organized.gif";
+import Residential from "../../image/Residential.gif";
+import ShortProp from "../../image/ShortProp.gif";
 import banner from "../../image/banner.gif";
 import Komorebi from "../../image/Komorebi.gif";
 
@@ -62,7 +62,7 @@ export const Home = () => {
   </div>
   <div className="col-sm-3">
     <div className="card">
-	<img src={Residential} classNae="card-img-top" alt="res" />
+	<img src={Residential} className="card-img-top" alt="res" />
       <div className="card-body">
         <h7 className="card-title">Residential Property Cleaning and Maintenence </h7>
 
