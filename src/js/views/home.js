@@ -33,9 +33,6 @@ export const Home = () => {
         <Link to="/login"><button className="btn-success btn-lg"><i className="fa-solid fa-phone" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover"></i></button></Link>
         <Link to="/login"><button className="btn-primary btn-lg"> <i className="fa-solid fa-envelope"></i></button></Link>
       </div>
-   <div className="mission">
-      <img className="Mission" src={Komorebi} alt="komorebi" />
-   </div>
    <div className="scope-of-service">
     	<img className="Banner" src={banner} alt="banner" />
    </div>
@@ -85,13 +82,16 @@ export const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-  
+<div className="mission">
+      <img className="Mission" src={Komorebi} alt="komorebi" />
+   </div>
  
   
 
   
 </div>
 </div>
+
 
 		
 
