@@ -35,7 +35,7 @@ body{
   
   background: linear-gradient(45deg, #def4ff, #080808, #ffffff, #83aab1bf); /* Adjust colors */
   background-size: 400% 400%;
-  animation: gradient-loop 40s linear infinite;
+  /* animation: gradient-loop 40s linear infinite; */
 
 }
 .btn{
